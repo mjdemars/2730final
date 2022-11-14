@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65444
+50102
 Successfully changed project path to: /Users/melaniemoenning/Desktop/Construction of Moving Image/2730final/2730 Final Project
 /Users/melaniemoenning/Desktop/Construction of Moving Image/2730final/2730 Final Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/melaniemoenning/Desktop/Constructio
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 121.86 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 91.07 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path /Applications/2021.3.8f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,96 +69,96 @@ Initialize mono
 Mono path[0] = '/Applications/2021.3.8f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/2021.3.8f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/2021.3.8f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56498
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/2021.3.8f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/2021.3.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/2021.3.8f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001188 seconds.
+Registered in 0.000930 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 123.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 109.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.982 seconds
+- Completed reload, in  0.862 seconds
 Domain Reload Profiling:
-	ReloadAssembly (983ms)
-		BeginReloadAssembly (86ms)
+	ReloadAssembly (863ms)
+		BeginReloadAssembly (78ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (730ms)
-			LoadAssemblies (85ms)
+		EndReloadAssembly (634ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (174ms)
+			SetupTypeCache (138ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (427ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (381ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (123ms)
+				RefreshPlugins (110ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (217ms)
-				ProcessInitializeOnLoadMethodAttributes (72ms)
+				ProcessInitializeOnLoadAttributes (198ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003129 seconds.
+Registered in 0.003261 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/melaniemoenning/Desktop/Construction of Moving Image/2730final/2730 Final Project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/melaniemoenning/Desktop/Construction of Moving Image/2730final/2730 Final Project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.50 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.623 seconds
+- Completed reload, in  1.375 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1625ms)
-		BeginReloadAssembly (137ms)
+	ReloadAssembly (1376ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (1292ms)
-			LoadAssemblies (87ms)
+		EndReloadAssembly (1068ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (431ms)
+			SetupTypeCache (400ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (94ms)
-			SetupLoadedEditorAssemblies (587ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (448ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (132ms)
-				ProcessInitializeOnLoadAttributes (383ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (310ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/2021.3.8f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
 Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (94.8 KB). Loaded Objects now: 3835.
-Memory consumption went from 230.2 MB to 230.1 MB.
-Total: 4.349819 ms (FindLiveObjects: 0.265022 ms CreateObjectMapping: 0.161680 ms MarkObjects: 3.721840 ms  DeleteObjects: 0.199716 ms)
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (155.0 KB). Loaded Objects now: 3839.
+Memory consumption went from 230.9 MB to 230.7 MB.
+Total: 5.152578 ms (FindLiveObjects: 0.374375 ms CreateObjectMapping: 0.254008 ms MarkObjects: 4.324131 ms  DeleteObjects: 0.198743 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -172,49 +172,753 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 51486.545767 seconds.
-  path: Assets/Textures/PBR Ground Materials #1 [Dirt& Grass]
-  artifactKey: Guid(0ace31510b2d6491587a43b452e5992d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/PBR Ground Materials #1 [Dirt& Grass] using Guid(0ace31510b2d6491587a43b452e5992d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176e06ae257ff7de64140f5be80bf7be') in 0.015605 seconds 
+  Time since last request: 54494.828261 seconds.
+  path: Assets/SampleScenes/Scripts
+  artifactKey: Guid(6b3da2c3291b36b4c9d431fad18e9b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Scripts using Guid(6b3da2c3291b36b4c9d431fad18e9b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001494 seconds  code(4) message(Build asset version error: assets/samplescenes/scripts.meta in SourceAssetDB has modification time of '2020-04-06T15:32:09Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/scripts.meta in SourceAssetDB has modification time of '2020-04-06T15:32:09Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
 ========================================================================
 Received Import Request.
-  Time since last request: 0.900354 seconds.
-  path: Assets/Textures/PBR Ground Materials #1 [Dirt& Grass]/Textures
-  artifactKey: Guid(2a2d029c2e8e41a449f8a35591f80b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/PBR Ground Materials #1 [Dirt& Grass]/Textures using Guid(2a2d029c2e8e41a449f8a35591f80b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b287ffb46cb85c15895b4ea8d1255df8') in 0.002669 seconds 
+  Time since last request: 3.286380 seconds.
+  path: Assets/SampleScenes/Menu/Sprites/LogoUnitySprite.png
+  artifactKey: Guid(7d6d5225d5a2b40e3959b66d13b6e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Menu/Sprites/LogoUnitySprite.png using Guid(7d6d5225d5a2b40e3959b66d13b6e29c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.294135 seconds  code(4) message(Build asset version error: assets/samplescenes/menu/sprites/logounitysprite.png in SourceAssetDB has modification time of '2020-04-06T15:32:24Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/menu/sprites/logounitysprite.png in SourceAssetDB has modification time of '2020-04-06T15:32:24Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
 ========================================================================
 Received Import Request.
-  Time since last request: 8.230760 seconds.
-  path: Assets/Textures/PBR Ground Materials #1 [Dirt& Grass]/Materials/Dirt
-  artifactKey: Guid(b2e6ebd7ed4c8414c860951f8a4c8cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/PBR Ground Materials #1 [Dirt& Grass]/Materials/Dirt using Guid(b2e6ebd7ed4c8414c860951f8a4c8cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a23c7397019b657059bf951941e953') in 0.002022 seconds 
+  Time since last request: 0.390604 seconds.
+  path: Assets/SampleScenes/Menu/Prefabs/EventSystem.prefab
+  artifactKey: Guid(af6c1d82d375aa54c81180d14d62761e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Menu/Prefabs/EventSystem.prefab using Guid(af6c1d82d375aa54c81180d14d62761e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.128108 seconds  code(4) message(Build asset version error: assets/samplescenes/menu/prefabs/eventsystem.prefab in SourceAssetDB has modification time of '2020-04-06T15:33:21Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/menu/prefabs/eventsystem.prefab in SourceAssetDB has modification time of '2020-04-06T15:33:21Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/Textures/PBR Ground Materials #1 [Dirt& Grass]/Materials/Dirt/Dirt_01.mat
-  artifactKey: Guid(a398c3c5fc65e4645966749a9fc7c21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/PBR Ground Materials #1 [Dirt& Grass]/Materials/Dirt/Dirt_01.mat using Guid(a398c3c5fc65e4645966749a9fc7c21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53123a65655de50400a910f37411aaf3') in 1.122104 seconds 
+  Time since last request: 0.000095 seconds.
+  path: Assets/SampleScenes/Menu/Prefabs/MainMenuUI.prefab
+  artifactKey: Guid(2c438794b43b9534189eff0d7d79335a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Menu/Prefabs/MainMenuUI.prefab using Guid(2c438794b43b9534189eff0d7d79335a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.030464 seconds  code(4) message(Build asset version error: assets/samplescenes/menu/prefabs/mainmenuui.prefab in SourceAssetDB has modification time of '2020-04-06T15:30:59Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/menu/prefabs/mainmenuui.prefab in SourceAssetDB has modification time of '2020-04-06T15:30:59Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
 ========================================================================
 Received Import Request.
-  Time since last request: 6.357566 seconds.
-  path: Assets/Textures/PBR Ground Materials #1 [Dirt& Grass]/Materials
-  artifactKey: Guid(84d0017ec34ec9b439a1de332d0ed9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/PBR Ground Materials #1 [Dirt& Grass]/Materials using Guid(84d0017ec34ec9b439a1de332d0ed9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056bbecc1d7c8652240b06ec2c38500e') in 0.002696 seconds 
+  Time since last request: 1.734106 seconds.
+  path: Assets/SampleScenes/Models/Brick.fbx
+  artifactKey: Guid(9ced0c52dc1504d4da20513052fdc602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Models/Brick.fbx using Guid(9ced0c52dc1504d4da20513052fdc602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.173493 seconds  code(4) message(Build asset version error: assets/samplescenes/models/brick.fbx in SourceAssetDB has modification time of '2020-04-06T15:33:01Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/models/brick.fbx in SourceAssetDB has modification time of '2020-04-06T15:33:01Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
 ========================================================================
 Received Import Request.
-  Time since last request: 2017.936979 seconds.
-  path: Assets/Standard Assets/Cameras/Prefabs/CctvCamera.prefab
-  artifactKey: Guid(851d11542d51c464e89acf6875599172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Cameras/Prefabs/CctvCamera.prefab using Guid(851d11542d51c464e89acf6875599172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfec614f714fedb75c6aadb2394e3771') in 0.160807 seconds 
+  Time since last request: 0.005056 seconds.
+  path: Assets/SampleScenes/Models/PrimaryJumpRamp.fbx
+  artifactKey: Guid(e5a593bc7144a6c45b7a3d4543355ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Models/PrimaryJumpRamp.fbx using Guid(e5a593bc7144a6c45b7a3d4543355ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.025471 seconds  code(4) message(Build asset version error: assets/samplescenes/models/primaryjumpramp.fbx in SourceAssetDB has modification time of '2020-04-06T15:34:27Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/models/primaryjumpramp.fbx in SourceAssetDB has modification time of '2020-04-06T15:34:27Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/SampleScenes/Models/GroundTrack.fbx
+  artifactKey: Guid(2afa5a1773ca1f84f98c062866a8be55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Models/GroundTrack.fbx using Guid(2afa5a1773ca1f84f98c062866a8be55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.080307 seconds  code(4) message(Build asset version error: assets/samplescenes/models/groundtrack.fbx in SourceAssetDB has modification time of '2020-04-06T15:30:54Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/models/groundtrack.fbx in SourceAssetDB has modification time of '2020-04-06T15:30:54Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/SampleScenes/Models/Pickup.fbx
+  artifactKey: Guid(959be6347b65b7a4c9baa6bc323541fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Models/Pickup.fbx using Guid(959be6347b65b7a4c9baa6bc323541fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.029036 seconds  code(4) message(Build asset version error: assets/samplescenes/models/pickup.fbx in SourceAssetDB has modification time of '2020-04-06T15:32:50Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/models/pickup.fbx in SourceAssetDB has modification time of '2020-04-06T15:32:50Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/SampleScenes/Models/Ring.fbx
+  artifactKey: Guid(ccb151eac4280a94c95575e12e56865a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Models/Ring.fbx using Guid(ccb151eac4280a94c95575e12e56865a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.024140 seconds  code(4) message(Build asset version error: assets/samplescenes/models/ring.fbx in SourceAssetDB has modification time of '2020-04-06T15:34:02Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/models/ring.fbx in SourceAssetDB has modification time of '2020-04-06T15:34:02Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/SampleScenes/Models/Loop.fbx
+  artifactKey: Guid(1d47ea6078c7f594e9aaf5f353bf61ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Models/Loop.fbx using Guid(1d47ea6078c7f594e9aaf5f353bf61ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.021630 seconds  code(4) message(Build asset version error: assets/samplescenes/models/loop.fbx in SourceAssetDB has modification time of '2020-04-06T15:30:41Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/models/loop.fbx in SourceAssetDB has modification time of '2020-04-06T15:30:41Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/SampleScenes/Models/Platforms.fbx
+  artifactKey: Guid(c35d6bf90f6954140bdbb6cd51b608ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Models/Platforms.fbx using Guid(c35d6bf90f6954140bdbb6cd51b608ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.025102 seconds  code(4) message(Build asset version error: assets/samplescenes/models/platforms.fbx in SourceAssetDB has modification time of '2020-04-06T15:33:47Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/models/platforms.fbx in SourceAssetDB has modification time of '2020-04-06T15:33:47Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/SampleScenes/Models/MiniRamps.fbx
+  artifactKey: Guid(b87e14348acae3449a86167ae5521ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Models/MiniRamps.fbx using Guid(b87e14348acae3449a86167ae5521ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.024785 seconds  code(4) message(Build asset version error: assets/samplescenes/models/miniramps.fbx in SourceAssetDB has modification time of '2020-04-06T15:33:32Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/models/miniramps.fbx in SourceAssetDB has modification time of '2020-04-06T15:33:32Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/SampleScenes/Models/Platform.fbx
+  artifactKey: Guid(41807bb6e4134a34aaf92fbad2e07bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Models/Platform.fbx using Guid(41807bb6e4134a34aaf92fbad2e07bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.024532 seconds  code(4) message(Build asset version error: assets/samplescenes/models/platform.fbx in SourceAssetDB has modification time of '2020-04-06T15:31:23Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/models/platform.fbx in SourceAssetDB has modification time of '2020-04-06T15:31:23Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/SampleScenes/Models/RampElevated.fbx
+  artifactKey: Guid(18dd8d7cbc4bc6a49ba9d26e2994c5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Models/RampElevated.fbx using Guid(18dd8d7cbc4bc6a49ba9d26e2994c5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.021580 seconds  code(4) message(Build asset version error: assets/samplescenes/models/rampelevated.fbx in SourceAssetDB has modification time of '2020-04-06T15:30:36Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/models/rampelevated.fbx in SourceAssetDB has modification time of '2020-04-06T15:30:36Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 1.187707 seconds.
+  path: Assets/SampleScenes/Navmesh/CarAI.asset
+  artifactKey: Guid(552927ccf2fdad3428e89e5104d91912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Navmesh/CarAI.asset using Guid(552927ccf2fdad3428e89e5104d91912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.102755 seconds  code(4) message(Build asset version error: assets/samplescenes/navmesh/carai.asset in SourceAssetDB has modification time of '2022-11-13T19:33:41Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/navmesh/carai.asset in SourceAssetDB has modification time of '2022-11-13T19:33:41Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.733790 seconds.
+  path: Assets/SampleScenes/Prefabs/Box.prefab
+  artifactKey: Guid(d29ba28bd5caaed429838de8bac7be72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/Box.prefab using Guid(d29ba28bd5caaed429838de8bac7be72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.015747 seconds  code(4) message(Build asset version error: assets/samplescenes/prefabs/box.prefab in SourceAssetDB has modification time of '2020-04-06T15:34:09Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/prefabs/box.prefab in SourceAssetDB has modification time of '2020-04-06T15:34:09Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/SampleScenes/Prefabs/Wall.prefab
+  artifactKey: Guid(fef5fcb209dce49409117a24775dfcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/Wall.prefab using Guid(fef5fcb209dce49409117a24775dfcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.021447 seconds  code(4) message(Build asset version error: assets/samplescenes/prefabs/wall.prefab in SourceAssetDB has modification time of '2020-04-06T15:35:05Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/prefabs/wall.prefab in SourceAssetDB has modification time of '2020-04-06T15:35:05Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/SampleScenes/Prefabs/Loop.prefab
+  artifactKey: Guid(a2dd655bfef0f0849a2c33d8fb4a029c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/Loop.prefab using Guid(a2dd655bfef0f0849a2c33d8fb4a029c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.020625 seconds  code(4) message(Build asset version error: assets/samplescenes/prefabs/loop.prefab in SourceAssetDB has modification time of '2020-04-06T15:33:09Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/prefabs/loop.prefab in SourceAssetDB has modification time of '2020-04-06T15:33:09Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/SampleScenes/Prefabs/Pillar.prefab
+  artifactKey: Guid(d23a205aa0ed1234ba0a327f1232ff7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/Pillar.prefab using Guid(d23a205aa0ed1234ba0a327f1232ff7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.013333 seconds  code(4) message(Build asset version error: assets/samplescenes/prefabs/pillar.prefab in SourceAssetDB has modification time of '2020-04-06T15:34:08Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/prefabs/pillar.prefab in SourceAssetDB has modification time of '2020-04-06T15:34:08Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/SampleScenes/Prefabs/CameraSwitchUI.prefab
+  artifactKey: Guid(b3495d363d7ccba40bc3e92c1a184e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/CameraSwitchUI.prefab using Guid(b3495d363d7ccba40bc3e92c1a184e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007166 seconds  code(4) message(Build asset version error: assets/samplescenes/prefabs/cameraswitchui.prefab in SourceAssetDB has modification time of '2020-04-06T15:33:26Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/prefabs/cameraswitchui.prefab in SourceAssetDB has modification time of '2020-04-06T15:33:26Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/SampleScenes/Prefabs/MobileShaderReplacements.prefab
+  artifactKey: Guid(76d89ae3180ce424ba0da8fc43e02035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/MobileShaderReplacements.prefab using Guid(76d89ae3180ce424ba0da8fc43e02035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006135 seconds  code(4) message(Build asset version error: assets/samplescenes/prefabs/mobileshaderreplacements.prefab in SourceAssetDB has modification time of '2020-04-06T15:32:20Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/prefabs/mobileshaderreplacements.prefab in SourceAssetDB has modification time of '2020-04-06T15:32:20Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/SampleScenes/Prefabs/LevelResetUI.prefab
+  artifactKey: Guid(d2aaa8a2832d77144aa84d5d309ae2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/LevelResetUI.prefab using Guid(d2aaa8a2832d77144aa84d5d309ae2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007790 seconds  code(4) message(Build asset version error: assets/samplescenes/prefabs/levelresetui.prefab in SourceAssetDB has modification time of '2020-04-06T15:34:09Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/prefabs/levelresetui.prefab in SourceAssetDB has modification time of '2020-04-06T15:34:09Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/SampleScenes/Prefabs/GroundArena.prefab
+  artifactKey: Guid(2799e6cfaf283a84e883ca79ffce608e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/GroundArena.prefab using Guid(2799e6cfaf283a84e883ca79ffce608e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.030439 seconds  code(4) message(Build asset version error: assets/samplescenes/prefabs/groundarena.prefab in SourceAssetDB has modification time of '2020-04-06T15:30:50Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/prefabs/groundarena.prefab in SourceAssetDB has modification time of '2020-04-06T15:30:50Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/SampleScenes/Prefabs/CameraSwitch.prefab
+  artifactKey: Guid(fdc378243b95c2144aa66bfc382d1b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/CameraSwitch.prefab using Guid(fdc378243b95c2144aa66bfc382d1b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008236 seconds  code(4) message(Build asset version error: assets/samplescenes/prefabs/cameraswitch.prefab in SourceAssetDB has modification time of '2020-04-06T15:35:03Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/prefabs/cameraswitch.prefab in SourceAssetDB has modification time of '2020-04-06T15:35:03Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/SampleScenes/Prefabs/GroundRunway.prefab
+  artifactKey: Guid(00690c0e075198740bd736a4731c7a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/GroundRunway.prefab using Guid(00690c0e075198740bd736a4731c7a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.027338 seconds  code(4) message(Build asset version error: assets/samplescenes/prefabs/groundrunway.prefab in SourceAssetDB has modification time of '2020-04-06T15:30:12Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/prefabs/groundrunway.prefab in SourceAssetDB has modification time of '2020-04-06T15:30:12Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/SampleScenes/Prefabs/Sea.prefab
+  artifactKey: Guid(92718a1040bbb9a4ab571265d9087f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/Sea.prefab using Guid(92718a1040bbb9a4ab571265d9087f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006751 seconds  code(4) message(Build asset version error: assets/samplescenes/prefabs/sea.prefab in SourceAssetDB has modification time of '2020-04-06T15:32:46Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/prefabs/sea.prefab in SourceAssetDB has modification time of '2020-04-06T15:32:46Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 7.569624 seconds.
+  path: Assets/SampleScenes/Textures/ChevronAlbedo.png
+  artifactKey: Guid(a354bcb686ec6544bb340270e70b8f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Textures/ChevronAlbedo.png using Guid(a354bcb686ec6544bb340270e70b8f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.019750 seconds  code(4) message(Build asset version error: assets/samplescenes/textures/chevronalbedo.png in SourceAssetDB has modification time of '2020-04-06T15:33:11Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/textures/chevronalbedo.png in SourceAssetDB has modification time of '2020-04-06T15:33:11Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/SampleScenes/Textures/GUIButtonEmpty.png
+  artifactKey: Guid(c65405de1316e7f47b4884a5143589cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Textures/GUIButtonEmpty.png using Guid(c65405de1316e7f47b4884a5143589cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.013943 seconds  code(4) message(Build asset version error: assets/samplescenes/textures/guibuttonempty.png in SourceAssetDB has modification time of '2020-04-06T15:33:54Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/textures/guibuttonempty.png in SourceAssetDB has modification time of '2020-04-06T15:33:54Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/SampleScenes/Textures/GUICameraCycle.png
+  artifactKey: Guid(266f4b0c2c7c161438daa4b595a09a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Textures/GUICameraCycle.png using Guid(266f4b0c2c7c161438daa4b595a09a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012330 seconds  code(4) message(Build asset version error: assets/samplescenes/textures/guicameracycle.png in SourceAssetDB has modification time of '2020-04-06T15:30:48Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/textures/guicameracycle.png in SourceAssetDB has modification time of '2020-04-06T15:30:48Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/SampleScenes/Textures/SwatchOrangeAlbedo.png
+  artifactKey: Guid(1b0dbc8d052d0ee45a5fa08650d0bf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Textures/SwatchOrangeAlbedo.png using Guid(1b0dbc8d052d0ee45a5fa08650d0bf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010786 seconds  code(4) message(Build asset version error: assets/samplescenes/textures/swatchorangealbedo.png in SourceAssetDB has modification time of '2020-04-06T15:30:38Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/textures/swatchorangealbedo.png in SourceAssetDB has modification time of '2020-04-06T15:30:38Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/SampleScenes/Textures/SwatchNavyAlbedo.png
+  artifactKey: Guid(ee5f9bf88befa4e4eb6ac1d74dae4051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Textures/SwatchNavyAlbedo.png using Guid(ee5f9bf88befa4e4eb6ac1d74dae4051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.014797 seconds  code(4) message(Build asset version error: assets/samplescenes/textures/swatchnavyalbedo.png in SourceAssetDB has modification time of '2020-04-06T15:34:37Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/textures/swatchnavyalbedo.png in SourceAssetDB has modification time of '2020-04-06T15:34:37Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/SampleScenes/Textures/GUICameraCycleDown.png
+  artifactKey: Guid(3883c76aaf90a674ca944059b2b72175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Textures/GUICameraCycleDown.png using Guid(3883c76aaf90a674ca944059b2b72175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012515 seconds  code(4) message(Build asset version error: assets/samplescenes/textures/guicameracycledown.png in SourceAssetDB has modification time of '2020-04-06T15:31:14Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/textures/guicameracycledown.png in SourceAssetDB has modification time of '2020-04-06T15:31:14Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/SampleScenes/Textures/GUIButtonSwitchRight.png
+  artifactKey: Guid(18ae03f5df3df2e47815aff6f3c6e50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Textures/GUIButtonSwitchRight.png using Guid(18ae03f5df3df2e47815aff6f3c6e50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010400 seconds  code(4) message(Build asset version error: assets/samplescenes/textures/guibuttonswitchright.png in SourceAssetDB has modification time of '2020-04-06T15:30:36Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/textures/guibuttonswitchright.png in SourceAssetDB has modification time of '2020-04-06T15:30:36Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/SampleScenes/Textures/FlyerPlayershipEmission.tif
+  artifactKey: Guid(eb5828203f3400a4b96753d2bf40c876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Textures/FlyerPlayershipEmission.tif using Guid(eb5828203f3400a4b96753d2bf40c876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.151013 seconds  code(4) message(Build asset version error: assets/samplescenes/textures/flyerplayershipemission.tif in SourceAssetDB has modification time of '2020-04-06T15:34:35Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/textures/flyerplayershipemission.tif in SourceAssetDB has modification time of '2020-04-06T15:34:35Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/SampleScenes/Textures/SwatchTealAlbedo.png
+  artifactKey: Guid(55aa8af457d5bdb419c375b143edb6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Textures/SwatchTealAlbedo.png using Guid(55aa8af457d5bdb419c375b143edb6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012770 seconds  code(4) message(Build asset version error: assets/samplescenes/textures/swatchtealalbedo.png in SourceAssetDB has modification time of '2020-04-06T15:31:44Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/textures/swatchtealalbedo.png in SourceAssetDB has modification time of '2020-04-06T15:31:44Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/SampleScenes/Textures/SwatchPinkAlbedo.png
+  artifactKey: Guid(e573d986e51134d48b79cf2761ab65b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Textures/SwatchPinkAlbedo.png using Guid(e573d986e51134d48b79cf2761ab65b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.018493 seconds  code(4) message(Build asset version error: assets/samplescenes/textures/swatchpinkalbedo.png in SourceAssetDB has modification time of '2020-04-06T15:34:27Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/textures/swatchpinkalbedo.png in SourceAssetDB has modification time of '2020-04-06T15:34:27Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/SampleScenes/Textures/GUITimescaleFull.png
+  artifactKey: Guid(4276d5f756bb64e7dbe3d20577592f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Textures/GUITimescaleFull.png using Guid(4276d5f756bb64e7dbe3d20577592f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.014702 seconds  code(4) message(Build asset version error: assets/samplescenes/textures/guitimescalefull.png in SourceAssetDB has modification time of '2020-04-06T15:31:24Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/textures/guitimescalefull.png in SourceAssetDB has modification time of '2020-04-06T15:31:24Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/SampleScenes/Textures/SwatchWhiteAlbedo.png
+  artifactKey: Guid(c798603beb3c1fc4a96620cf6b35cc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Textures/SwatchWhiteAlbedo.png using Guid(c798603beb3c1fc4a96620cf6b35cc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.016345 seconds  code(4) message(Build asset version error: assets/samplescenes/textures/swatchwhitealbedo.png in SourceAssetDB has modification time of '2020-04-06T15:33:55Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/textures/swatchwhitealbedo.png in SourceAssetDB has modification time of '2020-04-06T15:33:55Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/SampleScenes/Textures/SwatchYellowAlbedo.png
+  artifactKey: Guid(82e9fd4029ec6cc40b9301835032532f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Textures/SwatchYellowAlbedo.png using Guid(82e9fd4029ec6cc40b9301835032532f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.015315 seconds  code(4) message(Build asset version error: assets/samplescenes/textures/swatchyellowalbedo.png in SourceAssetDB has modification time of '2020-04-06T15:32:29Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/textures/swatchyellowalbedo.png in SourceAssetDB has modification time of '2020-04-06T15:32:29Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/SampleScenes/Textures/GUITimescaleSlow.png
+  artifactKey: Guid(7be95422710fa4b018659390b6108d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Textures/GUITimescaleSlow.png using Guid(7be95422710fa4b018659390b6108d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.013380 seconds  code(4) message(Build asset version error: assets/samplescenes/textures/guitimescaleslow.png in SourceAssetDB has modification time of '2020-04-06T15:32:24Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/textures/guitimescaleslow.png in SourceAssetDB has modification time of '2020-04-06T15:32:24Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 8.901960 seconds.
+  path: Assets/SampleScenes/Scenes
+  artifactKey: Guid(26c0bbb8e6792b546bf28bbe08d7c96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Scenes using Guid(26c0bbb8e6792b546bf28bbe08d7c96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000475 seconds  code(4) message(Build asset version error: assets/samplescenes/scenes.meta in SourceAssetDB has modification time of '2020-04-06T15:30:49Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/scenes.meta in SourceAssetDB has modification time of '2020-04-06T15:30:49Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 38.139222 seconds.
+  path: Assets/SampleScenes/Textures
+  artifactKey: Guid(086f32566457e9b4399348747e15d7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Textures using Guid(086f32566457e9b4399348747e15d7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001161 seconds  code(4) message(Build asset version error: assets/samplescenes/textures.meta in SourceAssetDB has modification time of '2020-04-06T15:30:21Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/textures.meta in SourceAssetDB has modification time of '2020-04-06T15:30:21Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 3.790492 seconds.
+  path: Assets/SampleScenes/Shaders
+  artifactKey: Guid(bf7e2c6946c8b754fb8e8f818aa82fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Shaders using Guid(bf7e2c6946c8b754fb8e8f818aa82fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001560 seconds  code(4) message(Build asset version error: assets/samplescenes/shaders.meta in SourceAssetDB has modification time of '2020-04-06T15:33:42Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/shaders.meta in SourceAssetDB has modification time of '2020-04-06T15:33:42Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 9.073702 seconds.
+  path: Assets/SampleScenes/Prefabs
+  artifactKey: Guid(139086bdd1c7fd84b81df0968a55ce2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs using Guid(139086bdd1c7fd84b81df0968a55ce2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000400 seconds  code(4) message(Build asset version error: assets/samplescenes/prefabs.meta in SourceAssetDB has modification time of '2020-04-06T15:30:31Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/prefabs.meta in SourceAssetDB has modification time of '2020-04-06T15:30:31Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 3.952386 seconds.
+  path: Assets/SampleScenes/Models
+  artifactKey: Guid(92a62c583a2e8734d9a6018eec4d27fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Models using Guid(92a62c583a2e8734d9a6018eec4d27fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000392 seconds  code(4) message(Build asset version error: assets/samplescenes/models.meta in SourceAssetDB has modification time of '2020-04-06T15:32:47Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/models.meta in SourceAssetDB has modification time of '2020-04-06T15:32:47Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.577636 seconds.
+  path: Assets/SampleScenes/Navmesh
+  artifactKey: Guid(4014c75d332963b40a9724fb931da32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Navmesh using Guid(4014c75d332963b40a9724fb931da32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001140 seconds  code(4) message(Build asset version error: assets/samplescenes/navmesh.meta in SourceAssetDB has modification time of '2020-04-06T15:31:22Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/navmesh.meta in SourceAssetDB has modification time of '2020-04-06T15:31:22Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 4.776668 seconds.
+  path: Assets/SampleScenes/Menu
+  artifactKey: Guid(48e4338a7d01577458bb723e3514edf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Menu using Guid(48e4338a7d01577458bb723e3514edf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001271 seconds  code(4) message(Build asset version error: assets/samplescenes/menu.meta in SourceAssetDB has modification time of '2020-04-06T15:31:33Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/menu.meta in SourceAssetDB has modification time of '2020-04-06T15:31:33Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 1.005176 seconds.
+  path: Assets/SampleScenes/Menu/Scripts
+  artifactKey: Guid(f9fc47f03fd0bda4b83e84440c9607bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Menu/Scripts using Guid(f9fc47f03fd0bda4b83e84440c9607bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001101 seconds  code(4) message(Build asset version error: assets/samplescenes/menu/scripts.meta in SourceAssetDB has modification time of '2020-04-06T15:34:59Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/menu/scripts.meta in SourceAssetDB has modification time of '2020-04-06T15:34:59Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 2.933539 seconds.
+  path: Assets/SampleScenes/Menu/Sprites
+  artifactKey: Guid(c43ba075e2f7e44328b0edd9303f4310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Menu/Sprites using Guid(c43ba075e2f7e44328b0edd9303f4310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001081 seconds  code(4) message(Build asset version error: assets/samplescenes/menu/sprites.meta in SourceAssetDB has modification time of '2020-04-06T15:33:50Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/samplescenes/menu/sprites.meta in SourceAssetDB has modification time of '2020-04-06T15:33:50Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002477 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/melaniemoenning/Desktop/Construction of Moving Image/2730final/2730 Final Project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/melaniemoenning/Desktop/Construction of Moving Image/2730final/2730 Final Project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.333 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1334ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1080ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (424ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (112ms)
+			SetupLoadedEditorAssemblies (348ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3375 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (72.1 KB). Loaded Objects now: 3860.
+Memory consumption went from 261.7 MB to 261.6 MB.
+Total: 3.330037 ms (FindLiveObjects: 0.284448 ms CreateObjectMapping: 0.208146 ms MarkObjects: 2.680084 ms  DeleteObjects: 0.156451 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 33.310037 seconds.
+  path: Assets/Materials/MauveSmooth.mat
+  artifactKey: Guid(d2985de4f27bfa340a12c3ef95d47167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/MauveSmooth.mat using Guid(d2985de4f27bfa340a12c3ef95d47167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.279873 seconds  code(4) message(Build asset version error: assets/materials/mauvesmooth.mat in SourceAssetDB has modification time of '2020-04-06T15:34:08Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/materials/mauvesmooth.mat in SourceAssetDB has modification time of '2020-04-06T15:34:08Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Materials/NavyGrid.mat
+  artifactKey: Guid(297e3a11e7d07fc48b4f71056b4f927f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/NavyGrid.mat using Guid(297e3a11e7d07fc48b4f71056b4f927f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.022018 seconds  code(4) message(Build asset version error: assets/materials/navygrid.mat in SourceAssetDB has modification time of '2020-04-06T15:30:53Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/materials/navygrid.mat in SourceAssetDB has modification time of '2020-04-06T15:30:53Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Materials/WhiteSmooth.mat
+  artifactKey: Guid(616853845a4a54949ac851f2f807aa2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/WhiteSmooth.mat using Guid(616853845a4a54949ac851f2f807aa2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.023779 seconds  code(4) message(Build asset version error: assets/materials/whitesmooth.mat in SourceAssetDB has modification time of '2020-04-06T15:31:59Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/materials/whitesmooth.mat in SourceAssetDB has modification time of '2020-04-06T15:31:59Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Materials/SkyboxProcedural.mat
+  artifactKey: Guid(bf1bf92a3ce592e40b898be6c21cc2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/SkyboxProcedural.mat using Guid(bf1bf92a3ce592e40b898be6c21cc2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.205293 seconds  code(4) message(Build asset version error: assets/materials/skyboxprocedural.mat in SourceAssetDB has modification time of '2020-04-06T15:33:39Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/materials/skyboxprocedural.mat in SourceAssetDB has modification time of '2020-04-06T15:33:39Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 2.393403 seconds.
+  path: Assets/Materials/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000307 seconds  code(4) message(Build asset version error: assets/materials/scenes.meta in SourceAssetDB has modification time of '2022-11-09T17:57:17Z' while content on disk has modification time of '2022-11-13T19:40:39Z')
+  ERROR: Build asset version error: assets/materials/scenes.meta in SourceAssetDB has modification time of '2022-11-09T17:57:17Z' while content on disk has modification time of '2022-11-13T19:40:39Z'
+========================================================================
+Received Import Request.
+  Time since last request: 14.300520 seconds.
+  path: Assets/Materials/MauveSmooth.mat
+  artifactKey: Guid(d2985de4f27bfa340a12c3ef95d47167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/MauveSmooth.mat using Guid(d2985de4f27bfa340a12c3ef95d47167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011678 seconds  code(4) message(Build asset version error: assets/materials/mauvesmooth.mat in SourceAssetDB has modification time of '2020-04-06T15:34:08Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/materials/mauvesmooth.mat in SourceAssetDB has modification time of '2020-04-06T15:34:08Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Materials/TurquoiseSmooth.mat
+  artifactKey: Guid(735665606fda0c14cb12bc536aa26dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TurquoiseSmooth.mat using Guid(735665606fda0c14cb12bc536aa26dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.023153 seconds  code(4) message(Build asset version error: assets/materials/turquoisesmooth.mat in SourceAssetDB has modification time of '2020-04-06T15:32:18Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/materials/turquoisesmooth.mat in SourceAssetDB has modification time of '2020-04-06T15:32:18Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Materials/TealSmooth.mat
+  artifactKey: Guid(ee9f7b84e86227a4fadc5e7f42e84b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TealSmooth.mat using Guid(ee9f7b84e86227a4fadc5e7f42e84b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.013654 seconds  code(4) message(Build asset version error: assets/materials/tealsmooth.mat in SourceAssetDB has modification time of '2020-04-06T15:34:38Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/materials/tealsmooth.mat in SourceAssetDB has modification time of '2020-04-06T15:34:38Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Materials/PinkUnlit.mat
+  artifactKey: Guid(a8934a77ad83e0f4a9e9d40b3917880b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PinkUnlit.mat using Guid(a8934a77ad83e0f4a9e9d40b3917880b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.034419 seconds  code(4) message(Build asset version error: assets/materials/pinkunlit.mat in SourceAssetDB has modification time of '2020-04-06T15:33:15Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/materials/pinkunlit.mat in SourceAssetDB has modification time of '2020-04-06T15:33:15Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Materials/YellowSmooth.mat
+  artifactKey: Guid(61bcea22404bda2469670dd9255037db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/YellowSmooth.mat using Guid(61bcea22404bda2469670dd9255037db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012132 seconds  code(4) message(Build asset version error: assets/materials/yellowsmooth.mat in SourceAssetDB has modification time of '2020-04-06T15:31:59Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/materials/yellowsmooth.mat in SourceAssetDB has modification time of '2020-04-06T15:31:59Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Materials/OrangeSmooth.mat
+  artifactKey: Guid(a24037aa2dae5b145b048dcaf948032a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/OrangeSmooth.mat using Guid(a24037aa2dae5b145b048dcaf948032a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.013926 seconds  code(4) message(Build asset version error: assets/materials/orangesmooth.mat in SourceAssetDB has modification time of '2020-04-06T15:33:09Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/materials/orangesmooth.mat in SourceAssetDB has modification time of '2020-04-06T15:33:09Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Materials/ParticleClouds.mat
+  artifactKey: Guid(efb74a60b37f60a41add571d33f34fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ParticleClouds.mat using Guid(efb74a60b37f60a41add571d33f34fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.018317 seconds  code(4) message(Build asset version error: assets/materials/particleclouds.mat in SourceAssetDB has modification time of '2020-04-06T15:34:46Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/materials/particleclouds.mat in SourceAssetDB has modification time of '2020-04-06T15:34:46Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 7.369385 seconds.
+  path: Assets/Materials/MauveSmooth.mat
+  artifactKey: Guid(d2985de4f27bfa340a12c3ef95d47167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/MauveSmooth.mat using Guid(d2985de4f27bfa340a12c3ef95d47167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010097 seconds  code(4) message(Build asset version error: assets/materials/mauvesmooth.mat in SourceAssetDB has modification time of '2020-04-06T15:34:08Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/materials/mauvesmooth.mat in SourceAssetDB has modification time of '2020-04-06T15:34:08Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Materials/TurquoiseSmooth.mat
+  artifactKey: Guid(735665606fda0c14cb12bc536aa26dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TurquoiseSmooth.mat using Guid(735665606fda0c14cb12bc536aa26dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.014498 seconds  code(4) message(Build asset version error: assets/materials/turquoisesmooth.mat in SourceAssetDB has modification time of '2020-04-06T15:32:18Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/materials/turquoisesmooth.mat in SourceAssetDB has modification time of '2020-04-06T15:32:18Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
 ========================================================================
 Received Import Request.
   Time since last request: 0.000154 seconds.
-  path: Assets/Standard Assets/Cameras/Prefabs/HandheldCamera.prefab
-  artifactKey: Guid(a5be31db3f71b0642af74fe491b4bc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Cameras/Prefabs/HandheldCamera.prefab using Guid(a5be31db3f71b0642af74fe491b4bc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f260088e2914f7fea178edb5c333ef64') in 0.007920 seconds 
+  path: Assets/Materials/TealSmooth.mat
+  artifactKey: Guid(ee9f7b84e86227a4fadc5e7f42e84b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TealSmooth.mat using Guid(ee9f7b84e86227a4fadc5e7f42e84b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.016376 seconds  code(4) message(Build asset version error: assets/materials/tealsmooth.mat in SourceAssetDB has modification time of '2020-04-06T15:34:38Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/materials/tealsmooth.mat in SourceAssetDB has modification time of '2020-04-06T15:34:38Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/Standard Assets/Cameras/Prefabs/MultipurposeCameraRig.prefab
-  artifactKey: Guid(baec086904791744185aaa07a6cf55c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Cameras/Prefabs/MultipurposeCameraRig.prefab using Guid(baec086904791744185aaa07a6cf55c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef397a795f7af57d9a7c2a23929757aa') in 0.009069 seconds 
+  Time since last request: 0.000081 seconds.
+  path: Assets/Materials/WhiteSmooth.mat
+  artifactKey: Guid(616853845a4a54949ac851f2f807aa2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/WhiteSmooth.mat using Guid(616853845a4a54949ac851f2f807aa2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.016094 seconds  code(4) message(Build asset version error: assets/materials/whitesmooth.mat in SourceAssetDB has modification time of '2020-04-06T15:31:59Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/materials/whitesmooth.mat in SourceAssetDB has modification time of '2020-04-06T15:31:59Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000566 seconds.
+  path: Assets/Materials/YellowSmooth.mat
+  artifactKey: Guid(61bcea22404bda2469670dd9255037db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/YellowSmooth.mat using Guid(61bcea22404bda2469670dd9255037db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008997 seconds  code(4) message(Build asset version error: assets/materials/yellowsmooth.mat in SourceAssetDB has modification time of '2020-04-06T15:31:59Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/materials/yellowsmooth.mat in SourceAssetDB has modification time of '2020-04-06T15:31:59Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Materials/OrangeSmooth.mat
+  artifactKey: Guid(a24037aa2dae5b145b048dcaf948032a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/OrangeSmooth.mat using Guid(a24037aa2dae5b145b048dcaf948032a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.013871 seconds  code(4) message(Build asset version error: assets/materials/orangesmooth.mat in SourceAssetDB has modification time of '2020-04-06T15:33:09Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/materials/orangesmooth.mat in SourceAssetDB has modification time of '2020-04-06T15:33:09Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Materials/ParticleClouds.mat
+  artifactKey: Guid(efb74a60b37f60a41add571d33f34fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ParticleClouds.mat using Guid(efb74a60b37f60a41add571d33f34fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.014129 seconds  code(4) message(Build asset version error: assets/materials/particleclouds.mat in SourceAssetDB has modification time of '2020-04-06T15:34:46Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/materials/particleclouds.mat in SourceAssetDB has modification time of '2020-04-06T15:34:46Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Materials/WhiteUnlit.mat
+  artifactKey: Guid(432d27f28c1251041bd6d1753602d5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/WhiteUnlit.mat using Guid(432d27f28c1251041bd6d1753602d5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.015351 seconds  code(4) message(Build asset version error: assets/materials/whiteunlit.mat in SourceAssetDB has modification time of '2020-04-06T15:31:25Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/materials/whiteunlit.mat in SourceAssetDB has modification time of '2020-04-06T15:31:25Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 1.435114 seconds.
+  path: Assets/Materials/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.158433 seconds  code(4) message(Build asset version error: assets/materials/scenes/samplescene.unity in SourceAssetDB has modification time of '2022-11-13T19:21:11Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: assets/materials/scenes/samplescene.unity in SourceAssetDB has modification time of '2022-11-13T19:21:11Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+========================================================================
+Received Import Request.
+  Time since last request: 33.316356 seconds.
+  path: Assets/Textures/TempGroudTexture/Materials/Dirt/Dirt_01.mat
+  artifactKey: Guid(a398c3c5fc65e4645966749a9fc7c21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/TempGroudTexture/Materials/Dirt/Dirt_01.mat using Guid(a398c3c5fc65e4645966749a9fc7c21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.046427 seconds  code(4) message(Build asset version error: assets/textures/tempgroudtexture/materials/dirt/dirt_01.mat in SourceAssetDB has modification time of '2022-11-13T19:21:11Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/textures/tempgroudtexture/materials/dirt/dirt_01.mat in SourceAssetDB has modification time of '2022-11-13T19:21:11Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 48.207057 seconds.
+  path: Assets/Textures/TempGroudTexture
+  artifactKey: Guid(0ace31510b2d6491587a43b452e5992d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/TempGroudTexture using Guid(0ace31510b2d6491587a43b452e5992d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000781 seconds  code(4) message(Build asset version error: assets/textures/tempgroudtexture.meta in SourceAssetDB has modification time of '2022-11-13T18:50:51Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/textures/tempgroudtexture.meta in SourceAssetDB has modification time of '2022-11-13T18:50:51Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.711534 seconds.
+  path: Assets/Textures/TempGroudTexture/Textures
+  artifactKey: Guid(2a2d029c2e8e41a449f8a35591f80b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/TempGroudTexture/Textures using Guid(2a2d029c2e8e41a449f8a35591f80b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000514 seconds  code(4) message(Build asset version error: assets/textures/tempgroudtexture/textures.meta in SourceAssetDB has modification time of '2017-03-14T20:53:53Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/textures/tempgroudtexture/textures.meta in SourceAssetDB has modification time of '2017-03-14T20:53:53Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.926757 seconds.
+  path: Assets/Textures/TempGroudTexture/Textures/Dirt_01
+  artifactKey: Guid(b6a268115247b6c4c9e420b58eb90e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/TempGroudTexture/Textures/Dirt_01 using Guid(b6a268115247b6c4c9e420b58eb90e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000456 seconds  code(4) message(Build asset version error: assets/textures/tempgroudtexture/textures/dirt_01.meta in SourceAssetDB has modification time of '2017-03-14T21:00:41Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/textures/tempgroudtexture/textures/dirt_01.meta in SourceAssetDB has modification time of '2017-03-14T21:00:41Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.057792 seconds.
+  path: Assets/Textures/TempGroudTexture/Textures/Dirt_01/Dirt_01_Ambient_Occlusion.tga
+  artifactKey: Guid(a0806bb3dcc9f3a44960230550d12fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/TempGroudTexture/Textures/Dirt_01/Dirt_01_Ambient_Occlusion.tga using Guid(a0806bb3dcc9f3a44960230550d12fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.755618 seconds  code(4) message(Build asset version error: assets/textures/tempgroudtexture/textures/dirt_01/dirt_01_ambient_occlusion.tga in SourceAssetDB has modification time of '2017-03-14T20:59:38Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/textures/tempgroudtexture/textures/dirt_01/dirt_01_ambient_occlusion.tga in SourceAssetDB has modification time of '2017-03-14T20:59:38Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Textures/TempGroudTexture/Textures/Dirt_01/Dirt_01_Height.tga
+  artifactKey: Guid(7e9cda9a75aa37743a9c0432d621f9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/TempGroudTexture/Textures/Dirt_01/Dirt_01_Height.tga using Guid(7e9cda9a75aa37743a9c0432d621f9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.019869 seconds  code(4) message(Build asset version error: assets/textures/tempgroudtexture/textures/dirt_01/dirt_01_height.tga in SourceAssetDB has modification time of '2017-03-14T20:57:39Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/textures/tempgroudtexture/textures/dirt_01/dirt_01_height.tga in SourceAssetDB has modification time of '2017-03-14T20:57:39Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Textures/TempGroudTexture/Textures/Dirt_01/Dirt_01_Specular.tga
+  artifactKey: Guid(28f100771d7acc242895a7cc1c235235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/TempGroudTexture/Textures/Dirt_01/Dirt_01_Specular.tga using Guid(28f100771d7acc242895a7cc1c235235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.022776 seconds  code(4) message(Build asset version error: assets/textures/tempgroudtexture/textures/dirt_01/dirt_01_specular.tga in SourceAssetDB has modification time of '2017-03-14T20:53:46Z' while content on disk has modification time of '2022-11-13T19:40:32Z')
+  ERROR: Build asset version error: assets/textures/tempgroudtexture/textures/dirt_01/dirt_01_specular.tga in SourceAssetDB has modification time of '2017-03-14T20:53:46Z' while content on disk has modification time of '2022-11-13T19:40:32Z'
+========================================================================
+Received Import Request.
+  Time since last request: 1.254748 seconds.
+  path: Assets/Textures/TempGroudTexture/Materials
+  artifactKey: Guid(84d0017ec34ec9b439a1de332d0ed9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/TempGroudTexture/Materials using Guid(84d0017ec34ec9b439a1de332d0ed9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000486 seconds  code(4) message(Build asset version error: assets/textures/tempgroudtexture/materials.meta in SourceAssetDB has modification time of '2017-03-14T20:57:55Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/textures/tempgroudtexture/materials.meta in SourceAssetDB has modification time of '2017-03-14T20:57:55Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.734509 seconds.
+  path: Assets/Textures/TempGroudTexture/Materials/Dirt
+  artifactKey: Guid(b2e6ebd7ed4c8414c860951f8a4c8cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/TempGroudTexture/Materials/Dirt using Guid(b2e6ebd7ed4c8414c860951f8a4c8cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000555 seconds  code(4) message(Build asset version error: assets/textures/tempgroudtexture/materials/dirt.meta in SourceAssetDB has modification time of '2017-03-14T21:00:29Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/textures/tempgroudtexture/materials/dirt.meta in SourceAssetDB has modification time of '2017-03-14T21:00:29Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.086043 seconds.
+  path: Assets/Textures/TempGroudTexture/Materials/Dirt/Dirt_01.mat
+  artifactKey: Guid(a398c3c5fc65e4645966749a9fc7c21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/TempGroudTexture/Materials/Dirt/Dirt_01.mat using Guid(a398c3c5fc65e4645966749a9fc7c21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.023629 seconds  code(4) message(Build asset version error: assets/textures/tempgroudtexture/materials/dirt/dirt_01.mat in SourceAssetDB has modification time of '2022-11-13T19:21:11Z' while content on disk has modification time of '2022-11-13T19:40:31Z')
+  ERROR: Build asset version error: assets/textures/tempgroudtexture/materials/dirt/dirt_01.mat in SourceAssetDB has modification time of '2022-11-13T19:21:11Z' while content on disk has modification time of '2022-11-13T19:40:31Z'
+========================================================================
+Received Import Request.
+  Time since last request: 117.280053 seconds.
+  path: Packages/com.unity.ugui/package.json
+  artifactKey: Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ugui/package.json using Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1002360e272cf591a214daa5cb5c75f8') in 0.246603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.452348 seconds.
+  path: Packages/com.unity.editorcoroutines/package.json
+  artifactKey: Guid(6428ca6f30e71ee4dbea7e1d0787cb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.editorcoroutines/package.json using Guid(6428ca6f30e71ee4dbea7e1d0787cb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09ec15c09bb4767b92c14d9ec7e7dbb') in 0.004409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.458720 seconds.
+  path: Packages/com.unity.ide.rider/package.json
+  artifactKey: Guid(66c95bb3c74257f41bae2622511dc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.rider/package.json using Guid(66c95bb3c74257f41bae2622511dc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeaee6515a9826a123aeb6dd10feda94') in 0.004084 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002499 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/melaniemoenning/Desktop/Construction of Moving Image/2730final/2730 Final Project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/melaniemoenning/Desktop/Construction of Moving Image/2730final/2730 Final Project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.921 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1923ms)
+		BeginReloadAssembly (223ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (90ms)
+		EndReloadAssembly (1502ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (546ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (626ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (444ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3375 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.2 KB). Loaded Objects now: 3898.
+Memory consumption went from 278.2 MB to 278.2 MB.
+Total: 6.127465 ms (FindLiveObjects: 0.316737 ms CreateObjectMapping: 0.645290 ms MarkObjects: 5.024865 ms  DeleteObjects: 0.138989 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002679 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/melaniemoenning/Desktop/Construction of Moving Image/2730final/2730 Final Project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/melaniemoenning/Desktop/Construction of Moving Image/2730final/2730 Final Project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.949 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1950ms)
+		BeginReloadAssembly (222ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (1529ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (573ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (703ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (503ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3375 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.2 KB). Loaded Objects now: 3901.
+Memory consumption went from 278.8 MB to 278.7 MB.
+Total: 3.849635 ms (FindLiveObjects: 0.237739 ms CreateObjectMapping: 0.183260 ms MarkObjects: 3.320869 ms  DeleteObjects: 0.106044 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
