@@ -7,14 +7,18 @@ public class openDoor : MonoBehaviour
 {
     [SerializeField]
     private Image _doorPrompt;
-    GameObject mainCamera;
+
+    public GameObject door;
 
     bool exited;
+    public float smooth;
+
+    private Quaternion DoorOpen;
+    private Quaternion DoorClosed;
 
     void Start()
     {
         _doorPrompt.enabled = false;
-        mainCamera = GameObject.FindWithTag("MainCamera");
         exited = false;
     }
 
@@ -22,7 +26,10 @@ public class openDoor : MonoBehaviour
     {
         if (Input.GetKeyDown (KeyCode.B) && exited == false)
         {
-            GameObject.FindWithTag("Player").transform.position = new Vector3(155f, 0f, 165f);
+            DoorOpen = door.transform.rotation = Quaternion.Euler(0, -90, 0);
+            DoorClosed = door.transform.rotation;
+
+            door.transform.rotation = Quaternion.Lerp(DoorClosed, DoorOpen, Time.deltaTime * smooth);
             exited = true;
         }
     }
