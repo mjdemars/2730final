@@ -9,14 +9,18 @@ public class noteAppear : MonoBehaviour
     private Image _ingredientsImage;
 
     GameObject mainCamera;
+
     bool pickedUp;
+    bool recipePickedup;
+
+    public AudioSource recipe;
 
     // Start is called before the first frame update
     void Start()
     {
         mainCamera = GameObject.FindWithTag("MainCamera");
         pickedUp = false;
-        
+        recipePickedup = false;
     }
 
     // Update is called once per frame
@@ -31,14 +35,19 @@ public class noteAppear : MonoBehaviour
 
     void pickup() {
         if(Input.GetKeyDown (KeyCode.E)) {
-            int x = Screen.width / 2;
-            int y = Screen.height / 2;
+            if (recipePickedup == false) {
+                recipe.Play();
 
-            Ray ray = mainCamera.GetComponent<Camera>().ScreenPointToRay(new Vector3(x,y));
-            RaycastHit hit;
-            if(Physics.Raycast(ray, out hit)) {
-                _ingredientsImage.enabled = true;
-                pickedUp = true;
+                int x = Screen.width / 2;
+                int y = Screen.height / 2;
+
+                Ray ray = mainCamera.GetComponent<Camera>().ScreenPointToRay(new Vector3(x,y));
+                RaycastHit hit;
+                if(Physics.Raycast(ray, out hit)) {
+                    _ingredientsImage.enabled = true;
+                    pickedUp = true;
+                }
+                recipePickedup = true;
             }
         }
     }
