@@ -9,6 +9,9 @@ Darwin version:          21.6.0
 Architecture:            x86_64
 Running under Rosetta:   NO
 Available memory:        32768 MB
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
@@ -24,6 +27,7 @@ C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
 AssetImportWorker1
 -projectPath
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 C:/Users/ayesh/Documents/GitHub/2730final/2730 Final Project
 -logFile
 Logs/AssetImportWorker1.log
@@ -31,6 +35,15 @@ Logs/AssetImportWorker1.log
 53038
 Successfully changed project path to: C:/Users/ayesh/Documents/GitHub/2730final/2730 Final Project
 C:/Users/ayesh/Documents/GitHub/2730final/2730 Final Project
+=======
+/Users/isabellapiboolnuruk/Documents/GitHub/2730final/2730 Final Project
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+62692
+Successfully changed project path to: /Users/isabellapiboolnuruk/Documents/GitHub/2730final/2730 Final Project
+/Users/isabellapiboolnuruk/Documents/GitHub/2730final/2730 Final Project
+>>>>>>> Stashed changes
 =======
 /Users/isabellapiboolnuruk/Documents/GitHub/2730final/2730 Final Project
 -logFile
@@ -70,6 +83,7 @@ Successfully changed project path to: /Users/isabellapiboolnuruk/Documents/GitHu
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 394.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
@@ -93,6 +107,8 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Registered in 0.045635 seconds.
 =======
+=======
+>>>>>>> Stashed changes
 Refreshing native plugins compatible for Editor in 86.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
@@ -115,9 +131,13 @@ Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/Pla
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Registered in 0.001539 seconds.
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 333.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -127,6 +147,8 @@ Domain Reload Profiling:
 	ReloadAssembly (2814ms)
 		BeginReloadAssembly (308ms)
 =======
+=======
+>>>>>>> Stashed changes
 Refreshing native plugins compatible for Editor in 123.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -134,11 +156,15 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (795ms)
 		BeginReloadAssembly (59ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 			CreateAndSetChildDomain (3ms)
 		EndReloadAssembly (1977ms)
@@ -165,12 +191,26 @@ Domain Reload Profiling:
 			RebuildScriptCaches (38ms)
 			SetupLoadedEditorAssemblies (347ms)
 				LogAssemblyErrors (0ms)
+=======
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (592ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (150ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (347ms)
+				LogAssemblyErrors (0ms)
+>>>>>>> Stashed changes
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (124ms)
 				BeforeProcessingInitializeOnLoad (2ms)
 				ProcessInitializeOnLoadAttributes (162ms)
 				ProcessInitializeOnLoadMethodAttributes (50ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -179,18 +219,25 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Registered in 0.028444 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\ayesh\Documents\GitHub\2730final\2730 Final Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\ayesh\Documents\GitHub\2730final\2730 Final Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 =======
+=======
+>>>>>>> Stashed changes
 Registered in 0.002023 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/isabellapiboolnuruk/Documents/GitHub/2730final/2730 Final Project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/isabellapiboolnuruk/Documents/GitHub/2730final/2730 Final Project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 340.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -1746,10 +1793,52 @@ Launching external process: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app
 Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
 Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+=======
+Refreshing native plugins compatible for Editor in 87.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.582 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1583ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1338ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (493ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (618ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (87ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (403ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+>>>>>>> Stashed changes
 Unloading 3900 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 44 unused Assets / (230.4 KB). Loaded Objects now: 4361.
 Memory consumption went from 262.3 MB to 262.1 MB.
 Total: 4.053827 ms (FindLiveObjects: 0.346136 ms CreateObjectMapping: 0.168102 ms MarkObjects: 3.303904 ms  DeleteObjects: 0.234720 ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):

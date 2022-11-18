@@ -9,6 +9,9 @@ Darwin version:          21.6.0
 Architecture:            x86_64
 Running under Rosetta:   NO
 Available memory:        32768 MB
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
@@ -24,6 +27,7 @@ C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
 AssetImportWorker0
 -projectPath
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 C:/Users/ayesh/Documents/GitHub/2730final/2730 Final Project
 -logFile
 Logs/AssetImportWorker0.log
@@ -31,6 +35,15 @@ Logs/AssetImportWorker0.log
 53038
 Successfully changed project path to: C:/Users/ayesh/Documents/GitHub/2730final/2730 Final Project
 C:/Users/ayesh/Documents/GitHub/2730final/2730 Final Project
+=======
+/Users/isabellapiboolnuruk/Documents/GitHub/2730final/2730 Final Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62692
+Successfully changed project path to: /Users/isabellapiboolnuruk/Documents/GitHub/2730final/2730 Final Project
+/Users/isabellapiboolnuruk/Documents/GitHub/2730final/2730 Final Project
+>>>>>>> Stashed changes
 =======
 /Users/isabellapiboolnuruk/Documents/GitHub/2730final/2730 Final Project
 -logFile
@@ -70,6 +83,7 @@ Successfully changed project path to: /Users/isabellapiboolnuruk/Documents/GitHu
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 620.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
@@ -93,6 +107,8 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Registered in 0.037599 seconds.
 =======
+=======
+>>>>>>> Stashed changes
 Refreshing native plugins compatible for Editor in 92.20 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
@@ -115,9 +131,13 @@ Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/Pla
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Registered in 0.000939 seconds.
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 320.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -127,6 +147,8 @@ Domain Reload Profiling:
 	ReloadAssembly (2811ms)
 		BeginReloadAssembly (304ms)
 =======
+=======
+>>>>>>> Stashed changes
 Refreshing native plugins compatible for Editor in 90.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -134,11 +156,15 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (805ms)
 		BeginReloadAssembly (59ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 			CreateAndSetChildDomain (3ms)
 		EndReloadAssembly (2014ms)
@@ -165,12 +191,26 @@ Domain Reload Profiling:
 			RebuildScriptCaches (39ms)
 			SetupLoadedEditorAssemblies (360ms)
 				LogAssemblyErrors (0ms)
+=======
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (608ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (153ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (360ms)
+				LogAssemblyErrors (0ms)
+>>>>>>> Stashed changes
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (91ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (203ms)
 				ProcessInitializeOnLoadMethodAttributes (55ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -178,6 +218,7 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Registered in 0.031438 seconds.
 Begin MonoManager ReloadAssembly
@@ -189,8 +230,15 @@ Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/isabellapiboolnuruk/Documents/GitHub/2730final/2730 Final Project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/isabellapiboolnuruk/Documents/GitHub/2730final/2730 Final Project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 >>>>>>> Stashed changes
+=======
+Registered in 0.002263 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/isabellapiboolnuruk/Documents/GitHub/2730final/2730 Final Project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/isabellapiboolnuruk/Documents/GitHub/2730final/2730 Final Project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+>>>>>>> Stashed changes
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 319.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -233,6 +281,8 @@ Unloading 44 unused Assets / (184.7 KB). Loaded Objects now: 4361.
 Memory consumption went from 140.1 MB to 140.0 MB.
 Total: 6.578200 ms (FindLiveObjects: 0.667300 ms CreateObjectMapping: 0.509000 ms MarkObjects: 5.161300 ms  DeleteObjects: 0.238600 ms)
 =======
+=======
+>>>>>>> Stashed changes
 Refreshing native plugins compatible for Editor in 88.22 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -274,6 +324,9 @@ Unloading 3900 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 44 unused Assets / (229.5 KB). Loaded Objects now: 4361.
 Memory consumption went from 262.5 MB to 262.3 MB.
 Total: 6.572270 ms (FindLiveObjects: 0.473501 ms CreateObjectMapping: 0.354342 ms MarkObjects: 5.367517 ms  DeleteObjects: 0.361962 ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -289,6 +342,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
   Time since last request: 267619.338845 seconds.
   path: Assets/StarterAssets/Readme.asset
@@ -1813,8 +1867,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 =======
+=======
+>>>>>>> Stashed changes
   Time since last request: 682564.435596 seconds.
   path: Assets/Sounds/Forest_Audio.wav
   artifactKey: Guid(abab16d9e544e2640b8c013afbe7a074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Sounds/Forest_Audio.wav using Guid(abab16d9e544e2640b8c013afbe7a074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057b4375ca3940efd348899004b8e55f') in 0.312462 seconds 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes

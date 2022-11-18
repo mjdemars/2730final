@@ -454,6 +454,7 @@
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.AdditionalFile.txt","enqueuedNodeIndex":359,"enqueueingNodeAnnotation":"Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)","enqueueingNodeIndex":361}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteText Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.rsp","enqueuedNodeIndex":360,"enqueueingNodeAnnotation":"Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)","enqueueingNodeIndex":361}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb","enqueuedNodeIndex":455,"enqueueingNodeAnnotation":"ScriptAssemblies","enqueueingNodeIndex":5}
+<<<<<<< Updated upstream
 {"msg":"newNode","annotation":"WriteText Library/Bee/artifacts/200b0aE.dag/UnityEngine.TestRunner.AdditionalFile.txt","index":1}
 {"msg":"runNodeAction","annotation":"WriteText Library/Bee/artifacts/200b0aE.dag/UnityEngine.TestRunner.AdditionalFile.txt","index":1}
 {"msg":"noderesult","processed_node_count":0,"number_of_nodes_ever_queued":455,"annotation":"WriteText Library/Bee/artifacts/200b0aE.dag/UnityEngine.TestRunner.AdditionalFile.txt","index":1,"exitcode":0,"outputfile":"Library/Bee/artifacts/200b0aE.dag/UnityEngine.TestRunner.AdditionalFile.txt"}
@@ -1818,3 +1819,5 @@
 {"msg":"noderesult","processed_node_count":453,"number_of_nodes_ever_queued":455,"annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll","index":454,"exitcode":0,"outputfile":"Library/ScriptAssemblies/Assembly-CSharp-Editor.dll"}
 {"msg":"newNode","annotation":"ScriptAssemblies","index":5}
 {"msg":"runNodeAction","annotation":"ScriptAssemblies","index":5}
+=======
+>>>>>>> Stashed changes
