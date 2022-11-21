@@ -7,7 +7,7 @@ TerrainLayer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: layer_CandyGround_1CandyGround_NRM793646612c42751
-  m_DiffuseTexture: {fileID: 2800000, guid: 7ef371908ecec3c40b69778f038d2868, type: 3}
+  m_DiffuseTexture: {fileID: 2800000, guid: 8241edd0b9de40442855ead9afde4fd0, type: 3}
   m_NormalMapTexture: {fileID: 2800000, guid: f0768552483f1e4458678ccdb1f53a05, type: 3}
   m_MaskMapTexture: {fileID: 0}
   m_TileSize: {x: 4, y: 4}

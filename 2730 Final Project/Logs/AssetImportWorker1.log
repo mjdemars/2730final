@@ -1,0 +1,868 @@
+Unity Editor version:    2021.3.11f1 (0a5ca18544bf)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.6 (Build 21G115)
+Darwin version:          21.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/2021.3.11f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/melaniemoenning/Desktop/Construction of Moving Image/2730final/2730 Final Project
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+52120
+Successfully changed project path to: /Users/melaniemoenning/Desktop/Construction of Moving Image/2730final/2730 Final Project
+/Users/melaniemoenning/Desktop/Construction of Moving Image/2730final/2730 Final Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 139.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path /Applications/2021.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/melaniemoenning/Desktop/Construction of Moving Image/2730final/2730 Final Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics (low power)
+Using device Intel(R) Iris(TM) Plus Graphics (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
+Initialize mono
+Mono path[0] = '/Applications/2021.3.11f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56359
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/2021.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/2021.3.11f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.001457 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 117.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.006 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1006ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (739ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (164ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (455ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (74ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (118ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003815 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/melaniemoenning/Desktop/Construction of Moving Image/2730final/2730 Final Project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/melaniemoenning/Desktop/Construction of Moving Image/2730final/2730 Final Project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 113.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.911 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1912ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1622ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (498ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (802ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (114ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (494ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/2021.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3902 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (120.1 KB). Loaded Objects now: 4377.
+Memory consumption went from 275.2 MB to 275.1 MB.
+Total: 4.787064 ms (FindLiveObjects: 0.358823 ms CreateObjectMapping: 0.268902 ms MarkObjects: 3.998559 ms  DeleteObjects: 0.159254 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 127015.476898 seconds.
+  path: Assets/CandyFantasyworld/Models/SkyBox.fbx
+  artifactKey: Guid(69cdb2527622c37439f48daff6182ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Models/SkyBox.fbx using Guid(69cdb2527622c37439f48daff6182ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b20d34127841464962694d41ff438d1') in 1.348429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Scenes/WitchHut.fbx
+  artifactKey: Guid(82b6389f70e4d44c5ad7e81e3720ad7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/WitchHut.fbx using Guid(82b6389f70e4d44c5ad7e81e3720ad7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6238237e020c6ccace5d26626d9948d') in 0.915340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 875.508159 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(5fb05bc3a7ab842e69a8ef0f392de367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(5fb05bc3a7ab842e69a8ef0f392de367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae59a5f6910b5a6a6173cf34d2056753') in 0.201630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.717581 seconds.
+  path: Assets/TerrainData_240dddae-4b2c-45b7-b4f5-57bc351e9cfb.asset
+  artifactKey: Guid(f546fe707f9054d9e97730dd5b96475e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_240dddae-4b2c-45b7-b4f5-57bc351e9cfb.asset using Guid(f546fe707f9054d9e97730dd5b96475e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50cb58d7c2e84d4da61c47f03dadf6ac') in 0.008996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/TerrainData_e0c2c292-734f-4ac4-b689-58374f9543a3.asset
+  artifactKey: Guid(106889552331f4482bccf7d8b56d1284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_e0c2c292-734f-4ac4-b689-58374f9543a3.asset using Guid(106889552331f4482bccf7d8b56d1284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aee7caf1e9796f43b1b40fd9b88632d') in 0.009199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.886219 seconds.
+  path: Assets/Materials/pinkBackground.mat
+  artifactKey: Guid(a56dfcb1f403a4f088a3cd356385fee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/pinkBackground.mat using Guid(a56dfcb1f403a4f088a3cd356385fee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbdac25ee33344f65c159327fd05a29e') in 2.421120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.348060 seconds.
+  path: Assets/CandyFantasyworld/Textures/CandyGround_2.tga
+  artifactKey: Guid(79f3398555b48324e9f14236aca0709a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/CandyGround_2.tga using Guid(79f3398555b48324e9f14236aca0709a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb85ea7baae2ffdbcd1882bbc4ac9d7') in 1.853086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_148_NRM.tga
+  artifactKey: Guid(155f88cd7ca63b74da4e53bd24721793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_148_NRM.tga using Guid(155f88cd7ca63b74da4e53bd24721793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9906629710809c35e438d4090c6ec74') in 0.098472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_147_NRM.tga
+  artifactKey: Guid(2b8cd0d26f4ac914780e55f13bb96087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_147_NRM.tga using Guid(2b8cd0d26f4ac914780e55f13bb96087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba50762ebccfa59af18e36ab799313b') in 0.024503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_152_NRM.tga
+  artifactKey: Guid(facc71c41897c49438794077d6e628a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_152_NRM.tga using Guid(facc71c41897c49438794077d6e628a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849362471dfa6298f662ef090b4e9d3e') in 0.025639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_149.tga
+  artifactKey: Guid(de45d4392c72c8848a08f45811596861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_149.tga using Guid(de45d4392c72c8848a08f45811596861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e2db551ef5803053a639ec8463ea63') in 0.023767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_148.tga
+  artifactKey: Guid(4a27d3250b7d3074ba5fdf7a3332b587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_148.tga using Guid(4a27d3250b7d3074ba5fdf7a3332b587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc816d105a3536add46508798786669') in 0.020198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_148_S.tga
+  artifactKey: Guid(c837b300dba47f34eb409c397fba3024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_148_S.tga using Guid(c837b300dba47f34eb409c397fba3024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5068f79e8bd8e45813af3aac7954626') in 0.025549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_149_1.tga
+  artifactKey: Guid(eb53e60f959a3c34c91c16cc2202d6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_149_1.tga using Guid(eb53e60f959a3c34c91c16cc2202d6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9195e51280df2bedc618dad88f19c34a') in 0.026883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_152_S.tga
+  artifactKey: Guid(28643dff708ee704c9726097ffb3bca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_152_S.tga using Guid(28643dff708ee704c9726097ffb3bca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d38c693b9ca4db8369969776f85691') in 0.022928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_148_1_NRM.tga
+  artifactKey: Guid(b49a22d37d6be024eae768b967b1732d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_148_1_NRM.tga using Guid(b49a22d37d6be024eae768b967b1732d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e987386a1bd920a042dd6f9a9b46135b') in 0.029606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/CandyFantasyworld/Textures/CandyGround_3.tga
+  artifactKey: Guid(8241edd0b9de40442855ead9afde4fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/CandyGround_3.tga using Guid(8241edd0b9de40442855ead9afde4fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c6a34caebd42c7d5cc2c1dec46c8d40') in 0.026619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_147_2.tga
+  artifactKey: Guid(aa4ad9bb0b3a0e04ab359b3acaa9f01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_147_2.tga using Guid(aa4ad9bb0b3a0e04ab359b3acaa9f01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f3c5784e46f6102af9979a996e3bb5') in 0.073218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_148_1.tga
+  artifactKey: Guid(dfcc53ac418d2f940b7fe711f61f7367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_148_1.tga using Guid(dfcc53ac418d2f940b7fe711f61f7367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd341ceca0e7e4a2b9024f2fd4bcd2b70') in 0.023736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.904986 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_153_S.tga
+  artifactKey: Guid(36626c0bd48c6f24a9eada8c241070cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_153_S.tga using Guid(36626c0bd48c6f24a9eada8c241070cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ec7b3236832dff2c65f5b2dbd59f82') in 0.020097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_154.tga
+  artifactKey: Guid(24e4413cbcc59b940858bff63e35b94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_154.tga using Guid(24e4413cbcc59b940858bff63e35b94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39abbe65ff02461454e267e6a99d3c9b') in 0.023817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_154_2.tga
+  artifactKey: Guid(dbf62267ee9b9d94e83acda3bdfbbd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_154_2.tga using Guid(dbf62267ee9b9d94e83acda3bdfbbd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fcf1b504a707ae41aa705a15c8b720d') in 0.025229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 439.123125 seconds.
+  path: Assets/Grass And Flowers Pack 1/Flower/Flower 2.png
+  artifactKey: Guid(787433db72de70645a866562e097cd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Flower/Flower 2.png using Guid(787433db72de70645a866562e097cd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb950e70c336f4c1635a7b35b6ba352') in 0.235302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Grass And Flowers Pack 1/Flower/Flower 12.png
+  artifactKey: Guid(6ad97d251e1ef5849a4d3d22200798eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Flower/Flower 12.png using Guid(6ad97d251e1ef5849a4d3d22200798eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab3ff62324607ba7619020eb780b97a') in 0.018233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Grass And Flowers Pack 1/Flower/Flower 7.png
+  artifactKey: Guid(37d076fe4b28144429a166aca1c02a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Flower/Flower 7.png using Guid(37d076fe4b28144429a166aca1c02a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3730bf25bcd366e5085346382fb3ccf') in 0.016459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Grass And Flowers Pack 1/Flower/Flower 4.png
+  artifactKey: Guid(ad92efd57360446408eb98ca805556d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Flower/Flower 4.png using Guid(ad92efd57360446408eb98ca805556d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91ada2abc733b9134537a3ac8ce7a62') in 0.016260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Grass And Flowers Pack 1/Flower/Flower 16.png
+  artifactKey: Guid(6d1b799698b4a13428f342e85a6eafa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Flower/Flower 16.png using Guid(6d1b799698b4a13428f342e85a6eafa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315a29a4eec2dc25c70ae279ae47a70a') in 0.019421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Grass And Flowers Pack 1/Flower/Flower 11.png
+  artifactKey: Guid(fb308d78d8746474e99ec6fed271be47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Flower/Flower 11.png using Guid(fb308d78d8746474e99ec6fed271be47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15c993da8670879de62b65cefdea9ce') in 0.021044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.707195 seconds.
+  path: Assets/Grass And Flowers Pack 1/Flower/Flower 23.png
+  artifactKey: Guid(a649788266163034aa4b99623cae3fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Flower/Flower 23.png using Guid(a649788266163034aa4b99623cae3fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80fb348a0ca4eadd72e77f4fb4805d7') in 0.013797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004919 seconds.
+  path: Assets/Grass And Flowers Pack 1/Flower/Flower 24.png
+  artifactKey: Guid(14fa9fdbde9323e44b97ba8f6aff0555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Flower/Flower 24.png using Guid(14fa9fdbde9323e44b97ba8f6aff0555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8560f85e4870e06f0ca4773b0f8417') in 0.015573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.588977 seconds.
+  path: Assets/Grass And Flowers Pack 1/Flower/Flower 27.png
+  artifactKey: Guid(f4fb557129691084cb3e99cf4dbfb1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Flower/Flower 27.png using Guid(f4fb557129691084cb3e99cf4dbfb1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857deeb3dcfcef41778fc0ab1da06122') in 0.019392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Grass And Flowers Pack 1/Flower/Flower 28.png
+  artifactKey: Guid(8a13b35641f16e44c89c897309bcdca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Flower/Flower 28.png using Guid(8a13b35641f16e44c89c897309bcdca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ba014552631f4323e7667ea6874e29') in 0.014986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.616451 seconds.
+  path: Assets/Grass And Flowers Pack 1/Flower/Flower 31.png
+  artifactKey: Guid(d4a4c5b26333338439fd3b78cfb701ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Flower/Flower 31.png using Guid(d4a4c5b26333338439fd3b78cfb701ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8353f86acb6685071a4ccad4a3c70c8') in 0.012828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Grass And Flowers Pack 1/Flower/Flower 33.png
+  artifactKey: Guid(de869416b57c19141b8de6d7fde89e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Flower/Flower 33.png using Guid(de869416b57c19141b8de6d7fde89e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f3feb2306a5bcb6290d3859af6186e') in 0.018735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034177 seconds.
+  path: Assets/Grass And Flowers Pack 1/Flower/Flower 35.png
+  artifactKey: Guid(de18140a4fd9aee4dbe1683916e5dd4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Flower/Flower 35.png using Guid(de18140a4fd9aee4dbe1683916e5dd4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb1aa477c25feba45faeb5ba463971c') in 0.021587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Grass And Flowers Pack 1/Flower/Flower 36.png
+  artifactKey: Guid(b4eee9ec30f930c4ba69d5049bae7081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Flower/Flower 36.png using Guid(b4eee9ec30f930c4ba69d5049bae7081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c799528c2cb18e57e12baf6f39e08f77') in 0.015595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.418130 seconds.
+  path: Assets/Grass And Flowers Pack 1/Flower/Grass Flower 3.png
+  artifactKey: Guid(8e17f59bfe0f1e1419e3bc10630bc069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Flower/Grass Flower 3.png using Guid(8e17f59bfe0f1e1419e3bc10630bc069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e6a63b30fb374b005174397bc63fa2') in 0.020621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Grass And Flowers Pack 1/Flower/Grass Flower 4.png
+  artifactKey: Guid(95836ce2bec877a4a8e8669de12ee50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Flower/Grass Flower 4.png using Guid(95836ce2bec877a4a8e8669de12ee50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348b745097b4815d8ae98d66f7da72de') in 0.018263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.049211 seconds.
+  path: Assets/Grass And Flowers Pack 1/Flower/Grass Flower 7.png
+  artifactKey: Guid(d0893b7d3bcbf8c4f806e5543cec2a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Flower/Grass Flower 7.png using Guid(d0893b7d3bcbf8c4f806e5543cec2a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c53fa23a2df6aa046b6ac1b0ea95026') in 0.014679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Grass And Flowers Pack 1/Flower/Grass Flower 8.png
+  artifactKey: Guid(b263d81465ccfd74980f9c72e4a4e794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Flower/Grass Flower 8.png using Guid(b263d81465ccfd74980f9c72e4a4e794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab9bf84156d52b36c8adf483a92aeb2') in 0.019476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.659716 seconds.
+  path: Assets/Grass And Flowers Pack 1/Flower/Grass Flower 11.png
+  artifactKey: Guid(dc92af4c176c5f2458c3adbc09c77766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Flower/Grass Flower 11.png using Guid(dc92af4c176c5f2458c3adbc09c77766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb669fe1fbc7a50a0b725db46f55950') in 0.019715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.530065 seconds.
+  path: Assets/StarterAssets/Environment/Prefabs/Box_350x250x200_Prefab.prefab
+  artifactKey: Guid(7b846d8f536f007498c941069487ce81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Prefabs/Box_350x250x200_Prefab.prefab using Guid(7b846d8f536f007498c941069487ce81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba3d20fc05362edb038ba3a53486e49') in 0.663345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/CandyFantasyworld/Models/common_obj_157 1.prefab
+  artifactKey: Guid(d43d3d471c3f8cf4d87b97ec33202508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Models/common_obj_157 1.prefab using Guid(d43d3d471c3f8cf4d87b97ec33202508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe3cf6c9563f3e41579a32f91d452a8') in 0.221835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/StarterAssets/FirstPersonController/Prefabs/PlayerFollowCamera.prefab
+  artifactKey: Guid(9c489a8547f4d9e4387da15a4ff82c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/FirstPersonController/Prefabs/PlayerFollowCamera.prefab using Guid(9c489a8547f4d9e4387da15a4ff82c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '311054eb1370390d41b78b2f39d70da4') in 0.016753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/StarterAssets/Mobile/Prefabs/VirtualInputs/UI_Virtual_Button.prefab
+  artifactKey: Guid(9e55d9b4642484f41be20c69a9b48063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/Prefabs/VirtualInputs/UI_Virtual_Button.prefab using Guid(9e55d9b4642484f41be20c69a9b48063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0607699d911234d48f25b405e18fb7f7') in 0.019110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/StarterAssets/Environment/Prefabs/Structure_Prefab.prefab
+  artifactKey: Guid(79e624e6a8770a946afb866fd94b394b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Prefabs/Structure_Prefab.prefab using Guid(79e624e6a8770a946afb866fd94b394b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49c75dc022e4430651574e5fcab1c40') in 0.031050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/StarterAssets/Environment/Prefabs/Stairs_650_400_300_Prefab.prefab
+  artifactKey: Guid(50a0925b0c22af146a2d15615f815a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Prefabs/Stairs_650_400_300_Prefab.prefab using Guid(50a0925b0c22af146a2d15615f815a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '311bbe8449e442b02f1bdc401dcab6b3') in 0.025047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/StarterAssets/FirstPersonController/Prefabs/PlayerCapsule.prefab
+  artifactKey: Guid(c5efc39a8aaf6e64ea40e9ad573e9b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/FirstPersonController/Prefabs/PlayerCapsule.prefab using Guid(c5efc39a8aaf6e64ea40e9ad573e9b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d195e4c012383b02331493624450ec9') in 0.092724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/StarterAssets/Mobile/Prefabs/VirtualInputs/UI_Virtual_Joystick.prefab
+  artifactKey: Guid(6eb08bfc0fd869c47b796c42ada099da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/Prefabs/VirtualInputs/UI_Virtual_Joystick.prefab using Guid(6eb08bfc0fd869c47b796c42ada099da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e9263333e09c7781de671be26dc9e1') in 0.019880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/StarterAssets/FirstPersonController/Prefabs/NestedParent_Unpack.prefab
+  artifactKey: Guid(035bf1ba97d19214580cfe6f5a29fdc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/FirstPersonController/Prefabs/NestedParent_Unpack.prefab using Guid(035bf1ba97d19214580cfe6f5a29fdc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623e770dd7933f73681eb734255c8773') in 0.150354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/StarterAssets/Mobile/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_Joysticks.prefab
+  artifactKey: Guid(2f7f3dde7ae722a4aafffe20691ad702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_Joysticks.prefab using Guid(2f7f3dde7ae722a4aafffe20691ad702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a9668892216d42995b4bf6c36eccbd') in 0.012088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/StarterAssets/Mobile/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_TouchZones.prefab
+  artifactKey: Guid(7484ce6f8ca3d81408c606b5ae8b9ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_TouchZones.prefab using Guid(7484ce6f8ca3d81408c606b5ae8b9ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abca1dc1bcfbb7040503e65e46ae6728') in 0.013127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.299123 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_154_S.tga
+  artifactKey: Guid(b4456d3da9efc794cbb8248265fe15ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_154_S.tga using Guid(b4456d3da9efc794cbb8248265fe15ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd547a234da7562e1c033da4e7ecbc703') in 0.018970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.153430 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_157_1.tga
+  artifactKey: Guid(246f03f30ed177e40b00778e74819e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_157_1.tga using Guid(246f03f30ed177e40b00778e74819e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955df613464895959b97eabb52182adc') in 0.015629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_157_S.tga
+  artifactKey: Guid(c7ab2d6798fc1054287a0323ba402115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_157_S.tga using Guid(c7ab2d6798fc1054287a0323ba402115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74c8999b7ee58f3524b257140155fd9') in 0.019583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.531843 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_161.tga
+  artifactKey: Guid(b3ab92f7135c81f43803146b54123f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_161.tga using Guid(b3ab92f7135c81f43803146b54123f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7dcee257f86c199029460a56434873') in 0.016374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_165.tga
+  artifactKey: Guid(c1a2862c90b300d41af9a6a586375dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_165.tga using Guid(c1a2862c90b300d41af9a6a586375dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94834a4dbd77c6d14aec6e5d4d56c670') in 0.021954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050741 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_165_S.tga
+  artifactKey: Guid(70dbb9322e99da944a7b8381cae74205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_165_S.tga using Guid(70dbb9322e99da944a7b8381cae74205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787c57c2cf51ec2fe0292ef232939724') in 0.019246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_166_1_NRM.tga
+  artifactKey: Guid(b130cf67725b0e84ea9bce7255084591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_166_1_NRM.tga using Guid(b130cf67725b0e84ea9bce7255084591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e48ae8ee6225259ba0a73aa51769b09') in 0.024757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.446494 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_166_2.tga
+  artifactKey: Guid(efbbdfebacc5206408edaff3f628e20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_166_2.tga using Guid(efbbdfebacc5206408edaff3f628e20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec606a16a92b111fb381a3a4ef114e2') in 0.031852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_166_2_NRM.tga
+  artifactKey: Guid(3611ca4720e92a0469f4a9ec487b38af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_166_2_NRM.tga using Guid(3611ca4720e92a0469f4a9ec487b38af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f5ecadefa2635ff606d3ecd3f1990e') in 0.020562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042304 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_168_NRM.tga
+  artifactKey: Guid(d645b763673cda3459fbf0f92abd0b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_168_NRM.tga using Guid(d645b763673cda3459fbf0f92abd0b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a64b1e2f90257829fc41117a413f63') in 0.017133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_168_S.tga
+  artifactKey: Guid(405256c2482ed024ab46dfd3435dc419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_168_S.tga using Guid(405256c2482ed024ab46dfd3435dc419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e044e5e942b12215ca2dc7ee6b1fbc82') in 0.022615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.286862 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_170_s_NRM.tga
+  artifactKey: Guid(3d1c7c30a1fea0a41a3430b9f2196ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_170_s_NRM.tga using Guid(3d1c7c30a1fea0a41a3430b9f2196ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891ad5566d4c321fe276bd3aaa0a7ba6') in 0.018308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_171_S.tga
+  artifactKey: Guid(9d0ad81c701b04b45a1be300efcc6422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_171_S.tga using Guid(9d0ad81c701b04b45a1be300efcc6422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48a005a45d17f2c383ecfe5e203c06b') in 0.019877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.721902 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_172.tga
+  artifactKey: Guid(39c804abec1c373458e97e18d388d861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_172.tga using Guid(39c804abec1c373458e97e18d388d861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300c72b9a7e0ea8b99f00dc7103acf34') in 0.016480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_172_S_NRM.tga
+  artifactKey: Guid(e49f8a786db28d940b7c5b5425985024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_172_S_NRM.tga using Guid(e49f8a786db28d940b7c5b5425985024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57e88f8e25ccf569010834b64b93829') in 0.017334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.544942 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_173_S.tga
+  artifactKey: Guid(5f72e09af6dd326458d5c980e7db20f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_173_S.tga using Guid(5f72e09af6dd326458d5c980e7db20f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f94bf3c495753bcabc3b1c3f2e8da0') in 0.017869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_173_S_NRM.tga
+  artifactKey: Guid(1a154ad503d68234ea1fec29409a36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_173_S_NRM.tga using Guid(1a154ad503d68234ea1fec29409a36d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339646fabbc9155586be5bab7ac103ab') in 0.021053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057427 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_176.tga
+  artifactKey: Guid(d42ad08394fede844947cea5d8173e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_176.tga using Guid(d42ad08394fede844947cea5d8173e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a6de9940b4c9c045765cffa860b6ba') in 0.016392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_177.tga
+  artifactKey: Guid(85eea433185b0924d8fe34b1453adbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_177.tga using Guid(85eea433185b0924d8fe34b1453adbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86d57151abaae4f163093852e3ce392') in 0.019801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050527 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_178.tga
+  artifactKey: Guid(975f63ef636601b4495650e4c7a769fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_178.tga using Guid(975f63ef636601b4495650e4c7a769fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26cac8fcdc37991512ad27273e881d3b') in 0.015733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_178_S.tga
+  artifactKey: Guid(83cf75908368e4c45a2e5cc2f445b4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_178_S.tga using Guid(83cf75908368e4c45a2e5cc2f445b4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a04de437f8a1b599eb8b4f62800b27') in 0.018405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.663580 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_179_S_NRM.tga
+  artifactKey: Guid(97ba0c59c91b564469cc89ae85c6d359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_179_S_NRM.tga using Guid(97ba0c59c91b564469cc89ae85c6d359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1d6f428909b048dbdc4b092dd8ddf7') in 0.019019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_180.tga
+  artifactKey: Guid(b065fe2f5561c0d468a8f0114e6daec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_180.tga using Guid(b065fe2f5561c0d468a8f0114e6daec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dedcdedb0709f7e1bc84220c7b52edff') in 0.023994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.153465 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_184.tga
+  artifactKey: Guid(5c1974106a756ff42b2433703b40961a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_184.tga using Guid(5c1974106a756ff42b2433703b40961a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2a651264cf13520895006a746e2d31') in 0.020123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_184_NRM.tga
+  artifactKey: Guid(841ea1600e05f704bbe5afe5e06c377b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_184_NRM.tga using Guid(841ea1600e05f704bbe5afe5e06c377b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84881823d96ca0f245c34bb5f8926fd9') in 0.021931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.253953 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_185.tga
+  artifactKey: Guid(e3d8f120b64a7e346968b7666cdac356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_185.tga using Guid(e3d8f120b64a7e346968b7666cdac356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd54900d6d562a02099933974f9dcc0') in 0.018931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_185_NRM.tga
+  artifactKey: Guid(c1cb8732991c4c04da2cabeb04744d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_185_NRM.tga using Guid(c1cb8732991c4c04da2cabeb04744d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e010e910cc84d77ff4ea0e38a34323') in 0.021932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.898702 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_186.tga
+  artifactKey: Guid(ea65aaf10cf55ba44bee998dc3f7b867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_186.tga using Guid(ea65aaf10cf55ba44bee998dc3f7b867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81692c5afc50c2905940eb88c518dd84') in 0.019442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_186_S.tga
+  artifactKey: Guid(d316eeeaa13ed5343b85ed5000f72dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_186_S.tga using Guid(d316eeeaa13ed5343b85ed5000f72dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db930dab00af49fd4f81d4d4a2b27e04') in 0.022652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.111885 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_187a_E.tga
+  artifactKey: Guid(2221f74534b9c974ba8e99c853aa640d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_187a_E.tga using Guid(2221f74534b9c974ba8e99c853aa640d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ffda63366f4ca9d2d1ca42138588e6') in 0.016736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_187a_NRM.tga
+  artifactKey: Guid(b0febe3a89129e44883527688547cad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_187a_NRM.tga using Guid(b0febe3a89129e44883527688547cad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff42a6df03c151ac6fd2b54fdef63779') in 0.021059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.143328 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_187b_S.tga
+  artifactKey: Guid(c47c61c0953894e439e730bb3fffbf44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_187b_S.tga using Guid(c47c61c0953894e439e730bb3fffbf44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7d17f93b698ea2da8a94dcdf974478') in 0.016017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_188.tga
+  artifactKey: Guid(323b8dae1edc4764d9a48e3f5daa187c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_188.tga using Guid(323b8dae1edc4764d9a48e3f5daa187c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbdd939fe7cbc636e506d5311eea380b') in 0.020104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.526705 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_188_NRM.tga
+  artifactKey: Guid(346b3fee386e22644818940af8df93fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_188_NRM.tga using Guid(346b3fee386e22644818940af8df93fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497e2aa9cc7fb99fc7add52bf8c04c5d') in 0.021399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/CandyFantasyworld/Textures/common_obj_188_S.tga
+  artifactKey: Guid(26f1bff8db08d0f418fa71317a11d88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/common_obj_188_S.tga using Guid(26f1bff8db08d0f418fa71317a11d88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2df2e8d0571cd3291e52a9fe7709142') in 0.021998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.697990 seconds.
+  path: Assets/CandyFantasyworld/Textures/RainbowBridge_S_NRM.tga
+  artifactKey: Guid(5443f8ba134d76c458995a708462e8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/RainbowBridge_S_NRM.tga using Guid(5443f8ba134d76c458995a708462e8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6347cd568af0c19b50aaf61f3ae9d8b') in 0.022694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/CandyFantasyworld/Textures/sky6.tga
+  artifactKey: Guid(0065ac64d9e7a1f4d840fd2a011d381d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/sky6.tga using Guid(0065ac64d9e7a1f4d840fd2a011d381d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1cd4e164bbdc2cd0d7c65a96afcc2f0') in 0.013517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.231488 seconds.
+  path: Assets/CandyFantasyworld/Textures/SweetGround_1_NRM.tga
+  artifactKey: Guid(4c913776190a89c49a3311fba1a96e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/SweetGround_1_NRM.tga using Guid(4c913776190a89c49a3311fba1a96e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8e9665b3d913f46dcaf69de8c0ee73') in 0.017471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/CandyFantasyworld/Textures/SweetGround_2.tga
+  artifactKey: Guid(a4617e5bca4bfe14b9e0188fee8ce1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Textures/SweetGround_2.tga using Guid(a4617e5bca4bfe14b9e0188fee8ce1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae8cc7d282dd7ccc55bb42a664c6a6b') in 0.019904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 796.828088 seconds.
+  path: Assets/Textures/TempGroudTexture/Textures/Dirt_01/Dirt_01_Diffuse.tga
+  artifactKey: Guid(9e158ebb3c19e804cadedb175e517834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/TempGroudTexture/Textures/Dirt_01/Dirt_01_Diffuse.tga using Guid(9e158ebb3c19e804cadedb175e517834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4622ba9583484aa7fda153cac9a1176c') in 0.025775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.068445 seconds.
+  path: Assets/Textures/TempGroudTexture/Textures/Dirt_01/Dirt_01_Normal.tga
+  artifactKey: Guid(d4cdc5832edd17e478e5645939ee8f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/TempGroudTexture/Textures/Dirt_01/Dirt_01_Normal.tga using Guid(d4cdc5832edd17e478e5645939ee8f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bcf3048928d420d7c7ffb89dee2c3ea') in 0.031179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Textures/TempGroudTexture/Textures/Dirt_01/Dirt_01_Specular.tga
+  artifactKey: Guid(28f100771d7acc242895a7cc1c235235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/TempGroudTexture/Textures/Dirt_01/Dirt_01_Specular.tga using Guid(28f100771d7acc242895a7cc1c235235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bfa1f589a836d64bd9b3962f83adb55') in 0.021125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053590 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Dpad@3x.png
+  artifactKey: Guid(6c1147159d9dc42948601b29dfc9a40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Dpad@3x.png using Guid(6c1147159d9dc42948601b29dfc9a40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8bda4dc750adef46296ca217d7ccd0') in 0.015095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 192.472514 seconds.
+  path: Assets/StarterAssets/Environment/Art/Models/Box_350x250x300_Mesh.fbx
+  artifactKey: Guid(d2f0da3998423f44594868ffed55c3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Models/Box_350x250x300_Mesh.fbx using Guid(d2f0da3998423f44594868ffed55c3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ba0e8b1dd70be3e3e9c15e1d6b3d7f') in 0.041253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/CandyFantasyworld/Models/common_obj_148.fbx
+  artifactKey: Guid(c74cf378f9c5e7c479cc7c6798507dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Models/common_obj_148.fbx using Guid(c74cf378f9c5e7c479cc7c6798507dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e263ec12bedb45165764f8905e9df2') in 0.028216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/CandyFantasyworld/Models/common_obj_147.fbx
+  artifactKey: Guid(f59da9445ae07794cb11cc2601e44869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Models/common_obj_147.fbx using Guid(f59da9445ae07794cb11cc2601e44869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80f76194209bd81db158d4b2f70d55ca') in 0.040841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/CandyFantasyworld/Models/common_obj_152.fbx
+  artifactKey: Guid(aed3158d432301643a1903d756aea9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Models/common_obj_152.fbx using Guid(aed3158d432301643a1903d756aea9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75aca1cfd638da2e61975a44da0399fa') in 0.033578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/CandyFantasyworld/Models/common_obj_149.fbx
+  artifactKey: Guid(f38298994b8df2141932bf5fd78eb963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Models/common_obj_149.fbx using Guid(f38298994b8df2141932bf5fd78eb963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a69d95e3abc54a59ef86d797cd0d7d') in 0.031624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.851330 seconds.
+  path: Assets/CandyFantasyworld/Models/common_obj_165.fbx
+  artifactKey: Guid(97e0fd5ed8c969f46a9282c03bc6f3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Models/common_obj_165.fbx using Guid(97e0fd5ed8c969f46a9282c03bc6f3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b499177c1c929fed63a08f5e75d559b') in 0.027501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/CandyFantasyworld/Models/common_obj_167.fbx
+  artifactKey: Guid(e35a9773c750e4e41950527175d798ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Models/common_obj_167.fbx using Guid(e35a9773c750e4e41950527175d798ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76afb2ef4e1434a577fa282c2942c46') in 0.042804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.052399 seconds.
+  path: Assets/CandyFantasyworld/Models/common_obj_173.FBX
+  artifactKey: Guid(40bea7aec295c48308d2712ee6429ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Models/common_obj_173.FBX using Guid(40bea7aec295c48308d2712ee6429ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e83b08a0da5e6a96daaad02490ef46') in 0.201911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/CandyFantasyworld/Models/common_obj_184.fbx
+  artifactKey: Guid(2d8b76c56e4809b4fb02de2c120ec75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Models/common_obj_184.fbx using Guid(2d8b76c56e4809b4fb02de2c120ec75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082b402101fe68a6f7a364bb6b1ada3a') in 0.052433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/CandyFantasyworld/Models/common_obj_186.fbx
+  artifactKey: Guid(664a56b122bb41f4aa488c2363ab4f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Models/common_obj_186.fbx using Guid(664a56b122bb41f4aa488c2363ab4f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb2808489b2b894ba8f7f7f2c4ff7c3') in 0.036303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/CandyFantasyworld/Models/common_obj_185.fbx
+  artifactKey: Guid(3d6390705bad91d41af21b1f5b2ac728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Models/common_obj_185.fbx using Guid(3d6390705bad91d41af21b1f5b2ac728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eafd7451f522b94c9c68b9318da7816') in 0.056076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/CandyFantasyworld/Models/common_obj_188.fbx
+  artifactKey: Guid(ba1273e80b6f71e47bec9f448ddbc9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Models/common_obj_188.fbx using Guid(ba1273e80b6f71e47bec9f448ddbc9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5857ed6a7e5da54aef7a441b274156') in 0.045138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 73.419181 seconds.
+  path: Assets/CandyFantasyworld/Effects/PC_night.asset
+  artifactKey: Guid(e352d2b4db0a71d46b18ac3dd8aff804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Effects/PC_night.asset using Guid(e352d2b4db0a71d46b18ac3dd8aff804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bbcb8c5e59b112d8afa8bae301fb755') in 0.003516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.708603 seconds.
+  path: Assets/CandyFantasyworld/Materials/CandyGround_2.mat
+  artifactKey: Guid(c2c915ba085f14dabbaefd7a4da1c62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Materials/CandyGround_2.mat using Guid(c2c915ba085f14dabbaefd7a4da1c62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727f2f48978989e4aea7a51496682322') in 0.200273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/CandyFantasyworld/Materials/LollipopPink.mat
+  artifactKey: Guid(8e3b43eae270e403fabf73e77eca06e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Materials/LollipopPink.mat using Guid(8e3b43eae270e403fabf73e77eca06e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '635e0e3d44c8f4d94d9dcd3845c777e9') in 0.019553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/CandyFantasyworld/Materials/LollipopOrange.mat
+  artifactKey: Guid(ef9c8f66e59734fe48e0dbee058b19c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Materials/LollipopOrange.mat using Guid(ef9c8f66e59734fe48e0dbee058b19c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '753d490f0d854e007257f93d47aabbc3') in 0.018210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/CandyFantasyworld/Materials/LollipopGreen.mat
+  artifactKey: Guid(3181bb7e6e82d4fc4a86cf8976c451bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Materials/LollipopGreen.mat using Guid(3181bb7e6e82d4fc4a86cf8976c451bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f79968d75d4c630270c133bb577e779') in 0.021061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 84.604846 seconds.
+  path: Assets/StarterAssets/Environment/Art/Textures/Grid_01_Emissive.png
+  artifactKey: Guid(d4d6919451fe3e24388816386a6d15a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Textures/Grid_01_Emissive.png using Guid(d4d6919451fe3e24388816386a6d15a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47bcf7fe400e56fb8a455b9b9d5ee512') in 0.025270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/StarterAssets/Environment/Art/Textures/Grid_02_BaseMap.png
+  artifactKey: Guid(d9c0dd5cdac07b145be73329e489869a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Textures/Grid_02_BaseMap.png using Guid(d9c0dd5cdac07b145be73329e489869a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440107684b21976bc7b580f801b4a4d0') in 0.020936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 96.011182 seconds.
+  path: Assets/Grass And Flowers Pack 1/Grass/Grass 2.png
+  artifactKey: Guid(62ccf45c509ff1946ad9fa10b558a01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Grass/Grass 2.png using Guid(62ccf45c509ff1946ad9fa10b558a01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b3ba0c76ebee6f85070aed25bf8288') in 0.017653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Grass And Flowers Pack 1/Grass/Grass 4.png
+  artifactKey: Guid(e79a83ecca9d8d8498cd8a9fbea1638d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass And Flowers Pack 1/Grass/Grass 4.png using Guid(e79a83ecca9d8d8498cd8a9fbea1638d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04500db849f732dc6099d6b5e3ab8050') in 0.017513 seconds 
