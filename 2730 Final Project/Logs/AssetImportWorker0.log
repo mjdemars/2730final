@@ -2,29 +2,29 @@ Unity Editor version:    2021.3.11f1 (0a5ca18544bf)
 Branch:                  2021.3/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 12.6 (Build 21G115)
-Darwin version:          21.6.0
+macOS version:           Version 13.0.1 (Build 22A400)
+Darwin version:          22.1.0
 Architecture:            x86_64
-Running under Rosetta:   NO
+Running under Rosetta:   YES
 Available memory:        16384 MB
 Using pre-set license
 Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-/Applications/2021.3.11f1/Unity.app/Contents/MacOS/Unity
+/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/melaniemoenning/Desktop/Construction of Moving Image/2730final/2730 Final Project
+/Users/maddalendemars/Documents/GitHub/2730final/2730 Final Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54050
-Successfully changed project path to: /Users/melaniemoenning/Desktop/Construction of Moving Image/2730final/2730 Final Project
-/Users/melaniemoenning/Desktop/Construction of Moving Image/2730final/2730 Final Project
+54284
+Successfully changed project path to: /Users/maddalendemars/Documents/GitHub/2730final/2730 Final Project
+/Users/maddalendemars/Documents/GitHub/2730final/2730 Final Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,111 +54,111 @@ Successfully changed project path to: /Users/melaniemoenning/Desktop/Constructio
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 141.09 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 99.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
-[Subsystems] Discovering subsystems at path /Applications/2021.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/melaniemoenning/Desktop/Construction of Moving Image/2730final/2730 Final Project/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/maddalendemars/Documents/GitHub/2730final/2730 Final Project/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+ preferred device: Apple M1 (high power)
 Metal devices available: 1
-0: Intel(R) Iris(TM) Plus Graphics (low power)
-Using device Intel(R) Iris(TM) Plus Graphics (low power)
-Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
 Initialize mono
-Mono path[0] = '/Applications/2021.3.11f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56201
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56705
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/2021.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: /Applications/2021.3.11f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.001002 seconds.
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-[usbmuxd] Send listen message
-Native extension for iOS target not found
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001148 seconds.
+Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 126.11 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 99.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.017 seconds
+- Completed reload, in  1.269 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1017ms)
-		BeginReloadAssembly (78ms)
+	ReloadAssembly (1270ms)
+		BeginReloadAssembly (109ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (771ms)
-			LoadAssemblies (78ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (963ms)
+			LoadAssemblies (106ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (184ms)
+			SetupTypeCache (108ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (464ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (690ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (66ms)
+				InitializePlatformSupportModulesInManaged (24ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (126ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (200ms)
-				ProcessInitializeOnLoadMethodAttributes (69ms)
+				RefreshPlugins (100ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (412ms)
+				ProcessInitializeOnLoadMethodAttributes (150ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003192 seconds.
+Registered in 0.002547 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/melaniemoenning/Desktop/Construction of Moving Image/2730final/2730 Final Project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/melaniemoenning/Desktop/Construction of Moving Image/2730final/2730 Final Project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
+Symbol file LoadedFromMemory doesn't match image /Users/maddalendemars/Documents/GitHub/2730final/2730 Final Project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/maddalendemars/Documents/GitHub/2730final/2730 Final Project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 125.78 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 98.23 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.932 seconds
+- Completed reload, in  2.383 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1935ms)
-		BeginReloadAssembly (119ms)
+	ReloadAssembly (2385ms)
+		BeginReloadAssembly (190ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (31ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (1669ms)
-			LoadAssemblies (133ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1945ms)
+			LoadAssemblies (111ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (476ms)
+			SetupTypeCache (270ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (105ms)
-			SetupLoadedEditorAssemblies (863ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (1335ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (126ms)
-				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (532ms)
-				ProcessInitializeOnLoadMethodAttributes (62ms)
+				RefreshPlugins (98ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (986ms)
+				ProcessInitializeOnLoadMethodAttributes (103ms)
 				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launching external process: /Applications/2021.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
-Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3902 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (117.8 KB). Loaded Objects now: 4386.
-Memory consumption went from 284.1 MB to 283.9 MB.
-Total: 4.736743 ms (FindLiveObjects: 0.286118 ms CreateObjectMapping: 0.254516 ms MarkObjects: 4.012134 ms  DeleteObjects: 0.182151 ms)
+Unloading 42 unused Assets / (114.9 KB). Loaded Objects now: 4386.
+Memory consumption went from 145.7 MB to 145.6 MB.
+Total: 3.332625 ms (FindLiveObjects: 0.232709 ms CreateObjectMapping: 0.106167 ms MarkObjects: 2.844333 ms  DeleteObjects: 0.148291 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -172,19 +172,85 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 137629.269125 seconds.
-  path: Assets/TerrainData_5835d175-7915-4da8-944a-edb82844ee66.asset
-  artifactKey: Guid(04537cb1cd89c4fb0a22f6e4f8917d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_5835d175-7915-4da8-944a-edb82844ee66.asset using Guid(04537cb1cd89c4fb0a22f6e4f8917d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd6bb68442ee28ae6a0d67d588337bd') in 0.239464 seconds 
+  Time since last request: 40942.012544 seconds.
+  path: Assets/Models/candyMan.fbx
+  artifactKey: Guid(8d3c3d35e4879447a8155de7062caf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/candyMan.fbx using Guid(8d3c3d35e4879447a8155de7062caf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8245531014829349135f9d36a6357f') in 0.769153 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/TerrainData_e839b3d6-11b0-47f9-b765-b0d6a2acded0.asset
-  artifactKey: Guid(d89bcff69850c4fc583a6e437f83c4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_e839b3d6-11b0-47f9-b765-b0d6a2acded0.asset using Guid(d89bcff69850c4fc583a6e437f83c4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed4e6db5d970ba7c25f7c94698b673f') in 0.016486 seconds 
+  Time since last request: 150.929467 seconds.
+  path: Assets/CandyFantasyworld/Materials
+  artifactKey: Guid(8e9550df3aea148268e828f7162c2832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/Materials using Guid(8e9550df3aea148268e828f7162c2832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ddc286d5e18d2de50a5338231349157') in 0.001115 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 97.039041 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_Groundplants 1_DGroundplants 1_N2023054508611406.terrainlayer
-  artifactKey: Guid(3f19498e328e34b8aafdd117a4cef827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_Groundplants 1_DGroundplants 1_N2023054508611406.terrainlayer using Guid(3f19498e328e34b8aafdd117a4cef827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c6a5ffb8fc01e090a01940b1a7dd67') in 0.129885 seconds 
+  Time since last request: 61.483249 seconds.
+  path: Assets/Materials/WitchHutMaterials/bottleGreen.mat
+  artifactKey: Guid(8353cf530dffb4a7d81737f91504ddd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/WitchHutMaterials/bottleGreen.mat using Guid(8353cf530dffb4a7d81737f91504ddd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48bce0283a7145203f21afa46c600ad9') in 0.084387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Materials/WitchHutMaterials/cauldronBlack.mat
+  artifactKey: Guid(34e92fd88a49047859c9ad8bef3ce60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/WitchHutMaterials/cauldronBlack.mat using Guid(34e92fd88a49047859c9ad8bef3ce60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94378b3e562cba8e340bab60bf543980') in 0.007477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Materials/WitchHutMaterials/bottlePurple.mat
+  artifactKey: Guid(a01d01b1203164cee940fe55716038eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/WitchHutMaterials/bottlePurple.mat using Guid(a01d01b1203164cee940fe55716038eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4376a89c1e35b73061e88deb2d6c4fb7') in 0.007769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Materials/WitchHutMaterials/gingerbreadWalls.mat
+  artifactKey: Guid(c3f55c275fe7040eba8556982da8c51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/WitchHutMaterials/gingerbreadWalls.mat using Guid(c3f55c275fe7040eba8556982da8c51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b26cdeddc07d03514091a5b348d39b') in 0.008691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Materials/WitchHutMaterials/bottleYellow.mat
+  artifactKey: Guid(7ce400fcf54c640328e2967ef4c95f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/WitchHutMaterials/bottleYellow.mat using Guid(7ce400fcf54c640328e2967ef4c95f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b078fca7018207ce4e8bd95a24b2dcf') in 0.037701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Materials/WitchHutMaterials/fireplace.mat
+  artifactKey: Guid(2379fd09e822a4b70abb9d6d969662da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/WitchHutMaterials/fireplace.mat using Guid(2379fd09e822a4b70abb9d6d969662da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43e058417dee08417bdc46859f7276a') in 0.008582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Materials/WitchHutMaterials/ingredients.mat
+  artifactKey: Guid(6bdd9b0781deb4d02996f8da2f00a99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/WitchHutMaterials/ingredients.mat using Guid(6bdd9b0781deb4d02996f8da2f00a99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16d6f0e7d102b6f03257cdc08621d19') in 0.015058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Materials/WitchHutMaterials/candle.mat
+  artifactKey: Guid(77b1b0c263aa5451aa5ad2b32d844769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/WitchHutMaterials/candle.mat using Guid(77b1b0c263aa5451aa5ad2b32d844769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f16bdf51f3509f18e9c3868399da66e') in 0.008503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Materials/WitchHutMaterials/CandycaneFurniture.mat
+  artifactKey: Guid(11cb5b5cf71e44f80b7eb73402aa2e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/WitchHutMaterials/CandycaneFurniture.mat using Guid(11cb5b5cf71e44f80b7eb73402aa2e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c693a23f3e5e736b64cc3708414f6d') in 0.010093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Materials/WitchHutMaterials/carpet.mat
+  artifactKey: Guid(a29c9cb618e6b4968a8060c6f4c84bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/WitchHutMaterials/carpet.mat using Guid(a29c9cb618e6b4968a8060c6f4c84bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab198fd1305abe8314a7dde3c217931c') in 0.012501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Materials/WitchHutMaterials/cork.mat
+  artifactKey: Guid(b396e783edc3343e5a45bfdd113618ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/WitchHutMaterials/cork.mat using Guid(b396e783edc3343e5a45bfdd113618ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921208bc311f2e4d331c71a3cc166168') in 0.010371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Materials/WitchHutMaterials/icing.mat
+  artifactKey: Guid(56603d8956c11426a878308cc23ca773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/WitchHutMaterials/icing.mat using Guid(56603d8956c11426a878308cc23ca773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f849c97e6f7904434420c7460346e84') in 0.008139 seconds 
