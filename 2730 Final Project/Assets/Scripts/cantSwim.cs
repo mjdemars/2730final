@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class cantSwim : MonoBehaviour 
+public class cantSwim : MonoBehaviour
 {
     public float detectionRange ;
     public bool closeEnough ;
@@ -11,15 +11,15 @@ public class cantSwim : MonoBehaviour
     [SerializeField] GameObject myCanvas;
     public Transform target;
     public Transform cam;
-     
+
      // cam and player are the same
-    void Start ()   
+    void Start ()
     {
         cam = Camera.main.transform;
-    }        
- 
+    }
 
-    void Update() 
+
+    void Update()
     {
         closeEnough = false;
         myCanvas.SetActive(false);
