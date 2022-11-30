@@ -26,7 +26,7 @@ public class openDoor : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown (KeyCode.B) && exited == false)
+        if (Input.GetKeyDown (KeyCode.E) && exited == false)
         {
             DoorOpen = door.transform.rotation = Quaternion.Euler(0, -90, 0);
             DoorClosed = door.transform.rotation;
