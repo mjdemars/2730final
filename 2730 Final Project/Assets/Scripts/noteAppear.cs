@@ -68,8 +68,13 @@ public class noteAppear : MonoBehaviour
     void drop() {
         if(Input.GetKeyDown (KeyCode.E)) {
             _noteImage.enabled = false;
+            if (voiceline.isPlaying == true) {
+                voiceline.Stop();
+            } else if (voiceline2.isPlaying == true) {
+                voiceline2.Stop();
+            }
 
-            noteObject.SetActive(false);
+            // noteObject.SetActive(false);
             pickedUp = false;
         }
     }

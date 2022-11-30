@@ -360,6 +360,7 @@
 "Assets/Scripts/lollipopSpin.cs"
 "Assets/Scripts/noteAppear.cs"
 "Assets/Scripts/openDoor.cs"
+"Assets/Scripts/voiceLineTrigger.cs"
 "Assets/StarterAssets/FirstPersonController/Scripts/BasicRigidBodyPush.cs"
 "Assets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs"
 "Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs"
