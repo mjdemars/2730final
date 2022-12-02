@@ -17,6 +17,11 @@ public class openDoor : MonoBehaviour
     private Quaternion DoorClosed;
 
     public AudioSource audioclip;
+    public AudioSource audioclip2;
+
+    public float detectionRange;
+    public bool closeEnough;
+    public Transform player;
 
     void Start()
     {
@@ -26,15 +31,19 @@ public class openDoor : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown (KeyCode.E) && exited == false)
-        {
-            DoorOpen = door.transform.rotation = Quaternion.Euler(0, -90, 0);
-            DoorClosed = door.transform.rotation;
+        if (Vector3.Distance(player.position, transform.position) <= detectionRange) {
+            if (Input.GetKeyDown (KeyCode.E) && exited == false && globals.noteCounter > 0)
+            {
+                DoorOpen = door.transform.rotation = Quaternion.Euler(0, -90, 0);
+                DoorClosed = door.transform.rotation;
 
-            door.transform.rotation = Quaternion.Lerp(DoorClosed, DoorOpen, Time.deltaTime * smooth);
-            exited = true;
+                door.transform.rotation = Quaternion.Lerp(DoorClosed, DoorOpen, Time.deltaTime * smooth);
+                exited = true;
 
-            audioclip.Play();
+                audioclip.Play();
+            }
+        } else {
+                audioclip2.Play();
         }
     }
 

@@ -10,6 +10,10 @@ public class npcInteraction : MonoBehaviour
 
     public AudioSource audioclip;
 
+    public float detectionRange;
+    public bool closeEnough;
+    public Transform player;
+
     void Start()
     {
         _UIprompt.enabled = false;
@@ -17,11 +21,13 @@ public class npcInteraction : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown (KeyCode.E))
-        {
-            if (audioclip.isPlaying == false)
+        if (Vector3.Distance(player.position, transform.position) <= detectionRange) {
+            if (Input.GetKeyDown (KeyCode.E) )
             {
-                audioclip.Play();
+                if (audioclip.isPlaying == false)
+                {
+                    audioclip.Play();
+                }
             }
         }
     }
