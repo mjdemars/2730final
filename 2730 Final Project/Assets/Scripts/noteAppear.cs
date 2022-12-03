@@ -44,6 +44,8 @@ public class noteAppear : MonoBehaviour
         if(Input.GetKeyDown (KeyCode.E)) {
             if (Vector3.Distance(player.position, transform.position) <= detectionRange) {
 
+                globals.noteCounter++;
+                
                 closeEnough = true;
 
                 voiceline.Play();
