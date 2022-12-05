@@ -16,6 +16,8 @@ public class openDoor : MonoBehaviour
     private Quaternion DoorOpen;
     private Quaternion DoorClosed;
 
+    public AudioSource audioclip;
+
     void Start()
     {
         _doorPrompt.enabled = false;
@@ -31,6 +33,8 @@ public class openDoor : MonoBehaviour
 
             door.transform.rotation = Quaternion.Lerp(DoorClosed, DoorOpen, Time.deltaTime * smooth);
             exited = true;
+
+            audioclip.Play();
         }
     }
 
