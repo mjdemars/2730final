@@ -11,11 +11,18 @@ public class noteAppear : MonoBehaviour
     GameObject mainCamera;
     public GameObject noteObject;
 
+    public bool note1;
+    public bool note2;
+    public bool recipeNote;
+
     bool pickedUp;
     public bool twoAudios;
 
     public AudioSource voiceline;
     public AudioSource voiceline2;
+
+    public AudioSource pickupSound;
+    public AudioSource putdownSound;
 
     public float detectionRange;
     public bool closeEnough;
@@ -44,14 +51,23 @@ public class noteAppear : MonoBehaviour
         if(Input.GetKeyDown (KeyCode.E)) {
             if (Vector3.Distance(player.position, transform.position) <= detectionRange) {
 
-                globals.noteCounter++;
-                
+                if (note1 == true) {
+                    globals.note1++;
+                }
+                if (note2 == true) {
+                    globals.note2++;
+                }
+                if (recipeNote == true) {
+                    globals.noteCounter++;
+                }
+
                 closeEnough = true;
 
                 voiceline.Play();
                 if (twoAudios == true && voiceline.isPlaying == false) {
                     voiceline2.Play();
                 }
+                pickupSound.Play();
 
                 int x = Screen.width / 2;
                 int y = Screen.height / 2;
@@ -76,6 +92,7 @@ public class noteAppear : MonoBehaviour
                 voiceline2.Stop();
             }
 
+            putdownSound.Play();
             // noteObject.SetActive(false);
             pickedUp = false;
         }

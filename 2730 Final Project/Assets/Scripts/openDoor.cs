@@ -18,6 +18,7 @@ public class openDoor : MonoBehaviour
 
     public AudioSource audioclip;
     public AudioSource audioclip2;
+    public AudioSource audioclip3;
 
     public float detectionRange;
     public bool closeEnough;
@@ -41,9 +42,12 @@ public class openDoor : MonoBehaviour
                 exited = true;
 
                 audioclip.Play();
-            }
-        } else {
                 audioclip2.Play();
+            }
+            if (Input.GetKeyDown (KeyCode.E) && exited == false && globals.noteCounter < 1)
+            {
+                audioclip3.Play();
+            }
         }
     }
 
