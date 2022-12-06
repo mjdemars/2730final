@@ -17,6 +17,7 @@ public class pathContinue : MonoBehaviour
     {
         if (globals.fire == true && globals.note1 > 0) {
             wall1.SetActive(false);
+            RenderSettings.fogColor = Color.black;
         }
         if (globals.candymen == true && globals.note2 > 0) {
             wall2.SetActive(false);
