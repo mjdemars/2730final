@@ -11,9 +11,11 @@ public class globals : MonoBehaviour
 
     public static bool fire;
     public static bool candymen;
+
     // Start is called before the first frame update
     void Start()
-    {
+    {   
+
         fire = false;
         candymen = false;
     }
