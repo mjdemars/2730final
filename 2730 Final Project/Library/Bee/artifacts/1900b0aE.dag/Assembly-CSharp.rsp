@@ -360,6 +360,7 @@
 "Assets/Scripts/cantSwim.cs"
 "Assets/Scripts/globals.cs"
 "Assets/Scripts/lollipopSpin.cs"
+"Assets/Scripts/mainMenu.cs"
 "Assets/Scripts/noteAppear.cs"
 "Assets/Scripts/npcInteraction.cs"
 "Assets/Scripts/openDoor.cs"
