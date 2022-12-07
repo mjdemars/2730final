@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64129
+55324
 Successfully changed project path to: /Users/phoebewongphatarakul/Desktop/2730final/2730 Final Project
 /Users/phoebewongphatarakul/Desktop/2730final/2730 Final Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/phoebewongphatarakul/Desktop/2730fi
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 86.05 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 85.02 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,96 +69,96 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000604 seconds.
+Registered in 0.000649 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 96.55 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 81.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.246 seconds
+- Completed reload, in  1.268 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1247ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (1269ms)
+		BeginReloadAssembly (147ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (944ms)
-			LoadAssemblies (104ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (924ms)
+			LoadAssemblies (145ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (97ms)
+			SetupTypeCache (92ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (692ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (674ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
+				InitializePlatformSupportModulesInManaged (22ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (97ms)
-				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (424ms)
-				ProcessInitializeOnLoadMethodAttributes (145ms)
+				RefreshPlugins (82ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (414ms)
+				ProcessInitializeOnLoadMethodAttributes (153ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001502 seconds.
+Registered in 0.001457 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/phoebewongphatarakul/Desktop/2730final/2730 Final Project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/phoebewongphatarakul/Desktop/2730final/2730 Final Project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 82.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 82.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.383 seconds
+- Completed reload, in  2.292 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2385ms)
-		BeginReloadAssembly (204ms)
+	ReloadAssembly (2294ms)
+		BeginReloadAssembly (198ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (36ms)
+			DisableScriptedObjects (35ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (1924ms)
-			LoadAssemblies (138ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1850ms)
+			LoadAssemblies (115ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (247ms)
+			SetupTypeCache (238ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (1310ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (1276ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (83ms)
-				BeforeProcessingInitializeOnLoad (112ms)
-				ProcessInitializeOnLoadAttributes (995ms)
-				ProcessInitializeOnLoadMethodAttributes (103ms)
+				RefreshPlugins (82ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (962ms)
+				ProcessInitializeOnLoadMethodAttributes (104ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
 Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3907 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (119.9 KB). Loaded Objects now: 4395.
-Memory consumption went from 358.0 MB to 357.9 MB.
-Total: 3.249416 ms (FindLiveObjects: 0.266459 ms CreateObjectMapping: 0.087875 ms MarkObjects: 2.769834 ms  DeleteObjects: 0.120375 ms)
+Unloading 42 unused Assets / (120.4 KB). Loaded Objects now: 4395.
+Memory consumption went from 358.6 MB to 358.5 MB.
+Total: 3.040041 ms (FindLiveObjects: 0.210750 ms CreateObjectMapping: 0.080167 ms MarkObjects: 2.625166 ms  DeleteObjects: 0.123250 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -172,245 +172,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1813518.280348 seconds.
-  path: Assets/Hand Paint Flowers/Materials/HPF/HPF_1.mat
-  artifactKey: Guid(489e233d7ac9d794486259965e711013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Paint Flowers/Materials/HPF/HPF_1.mat using Guid(489e233d7ac9d794486259965e711013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd4db801a360672be53057a35726235') in 0.259247 seconds 
+  Time since last request: 1846160.693885 seconds.
+  path: Assets/Christmas-Assets-FREE/Textures/Candy-Cane-01-Color+Spec.tga
+  artifactKey: Guid(7aaf8a7653455824bb872674dfb0c5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christmas-Assets-FREE/Textures/Candy-Cane-01-Color+Spec.tga using Guid(7aaf8a7653455824bb872674dfb0c5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b63337fa3ed8a71fbe89b69fadcb13') in 0.185283 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.847489 seconds.
-  path: Assets/Hand Paint Flowers/Models/HPF/Flower pots/Flower pot 1.02.fbx
-  artifactKey: Guid(9a509040e7899544e9e524db2d8039a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Paint Flowers/Models/HPF/Flower pots/Flower pot 1.02.fbx using Guid(9a509040e7899544e9e524db2d8039a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9234f9c6089f7a3a77d8ca65e2c6bbda') in 0.158070 seconds 
+  Time since last request: 0.000142 seconds.
+  path: Assets/Christmas-Assets-FREE/Materials
+  artifactKey: Guid(36ff0a61b56f4fe429d6038fcb2d7bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christmas-Assets-FREE/Materials using Guid(36ff0a61b56f4fe429d6038fcb2d7bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276ee9892b7568b5dde32d3cf1230b9f') in 0.000467 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Hand Paint Flowers/Models/HPF/Flower pots/Flower pot 1.06.fbx
-  artifactKey: Guid(a2fecd666e8c011439978103bb033f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Paint Flowers/Models/HPF/Flower pots/Flower pot 1.06.fbx using Guid(a2fecd666e8c011439978103bb033f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7746c000f6e62d4d80e6e10a0f1c14d') in 0.016883 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Hand Paint Flowers/Models/HPF/Flower pots/Flower pot 1.11.fbx
-  artifactKey: Guid(e41cd476f8748d14dae00353765c90f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Paint Flowers/Models/HPF/Flower pots/Flower pot 1.11.fbx using Guid(e41cd476f8748d14dae00353765c90f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99830e7c89ac3990324ad3a21559866') in 0.014006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Hand Paint Flowers/Models/HPF/Flower pots/Flower pot 1.08.fbx
-  artifactKey: Guid(88df79c3b75c8c34ab8dfdf47556e07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Paint Flowers/Models/HPF/Flower pots/Flower pot 1.08.fbx using Guid(88df79c3b75c8c34ab8dfdf47556e07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c482e5151206c72721b4799286ebf2') in 0.013191 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Hand Paint Flowers/Models/HPF/Flower pots/Flower pot 1.07.fbx
-  artifactKey: Guid(30fc10f8dc2b75b428033b2ea4cb6fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Paint Flowers/Models/HPF/Flower pots/Flower pot 1.07.fbx using Guid(30fc10f8dc2b75b428033b2ea4cb6fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea41e27df515466259c68c1167f33def') in 0.013619 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Hand Paint Flowers/Models/HPF/Flower pots/Flower pot 1.09.fbx
-  artifactKey: Guid(2cfec1abdfed00c40a3f7dfd016b89e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Paint Flowers/Models/HPF/Flower pots/Flower pot 1.09.fbx using Guid(2cfec1abdfed00c40a3f7dfd016b89e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e16fd64b0ccbd8fa1b9910243cc6ede') in 0.017321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Hand Paint Flowers/Models/HPF/Flower pots/Flower pot 1.04.fbx
-  artifactKey: Guid(1a1837d2f38b84c4a831de906037821e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Paint Flowers/Models/HPF/Flower pots/Flower pot 1.04.fbx using Guid(1a1837d2f38b84c4a831de906037821e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123eed7254a452501b400ad6dba7bf33') in 0.020392 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Hand Paint Flowers/Models/HPF/Flower pots/Flower pot 1.14.fbx
-  artifactKey: Guid(80bf5e7a17156534a94d78ae8e260fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Paint Flowers/Models/HPF/Flower pots/Flower pot 1.14.fbx using Guid(80bf5e7a17156534a94d78ae8e260fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4463ff4969c3154548794572596f683d') in 0.015047 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Hand Paint Flowers/Models/HPF/Flower pots/Flower pot 1.05.fbx
-  artifactKey: Guid(777239d8e38e19c4f9e6441488891ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Paint Flowers/Models/HPF/Flower pots/Flower pot 1.05.fbx using Guid(777239d8e38e19c4f9e6441488891ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acbbe2f937519b7bad9ee9abdcce1d99') in 0.017011 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/Hand Paint Flowers/Models/HPF/Flower pots/Flower pot 1.03.fbx
-  artifactKey: Guid(c0c9a373f5a5a0949951710f3bb56979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Paint Flowers/Models/HPF/Flower pots/Flower pot 1.03.fbx using Guid(c0c9a373f5a5a0949951710f3bb56979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4033e22ee68487c3c4767cd83c5cf30') in 0.013028 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Hand Paint Flowers/Models/HPF/Flower pots/Flower pot 1.10.fbx
-  artifactKey: Guid(a2747bfc6e154ef49a3601a57a1d60e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Paint Flowers/Models/HPF/Flower pots/Flower pot 1.10.fbx using Guid(a2747bfc6e154ef49a3601a57a1d60e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd78ff48a841f5920b6d3d7c1f145c5') in 0.012359 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.531356 seconds.
-  path: Assets/Hand Paint Flowers/Models/HPF/Flowers/Flowers 1.02.fbx
-  artifactKey: Guid(b53f8633a19f014429c6d709e7eb8baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Paint Flowers/Models/HPF/Flowers/Flowers 1.02.fbx using Guid(b53f8633a19f014429c6d709e7eb8baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe0f6343ff82c5cb014bd7252dab7b7') in 0.017903 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Hand Paint Flowers/Models/HPF/Flowers/Flowers 1.05.fbx
-  artifactKey: Guid(7b63637e6ac0cec47b41053ad23864d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Paint Flowers/Models/HPF/Flowers/Flowers 1.05.fbx using Guid(7b63637e6ac0cec47b41053ad23864d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7abe588557af08c4f86ac2f4e7dfa71') in 0.016089 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Hand Paint Flowers/Models/HPF/Flowers/Flowers 1.10.fbx
-  artifactKey: Guid(d7bad3a70d5058943abb62e319f11366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Paint Flowers/Models/HPF/Flowers/Flowers 1.10.fbx using Guid(d7bad3a70d5058943abb62e319f11366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61d33d372cbc1cb1aed0c86dfe3ed74') in 0.013931 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Hand Paint Flowers/Models/HPF/Flowers/Flowers 1.13.fbx
-  artifactKey: Guid(1ef66fc3f5b2e894289c0d15102e8cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Paint Flowers/Models/HPF/Flowers/Flowers 1.13.fbx using Guid(1ef66fc3f5b2e894289c0d15102e8cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6e0e49734f97cb2297d35dd4dede46') in 0.014066 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Hand Paint Flowers/Models/HPF/Flowers/Flowers 1.09.fbx
-  artifactKey: Guid(61f627040389ad54086c6eaa65bfa24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Paint Flowers/Models/HPF/Flowers/Flowers 1.09.fbx using Guid(61f627040389ad54086c6eaa65bfa24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719b26823bc48b7bf9ddd1c9f72c0c18') in 0.014327 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Hand Paint Flowers/Models/HPF/Flowers/Flowers 1.11.fbx
-  artifactKey: Guid(ce46cd3d295badc488cd0d414dbe02d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Paint Flowers/Models/HPF/Flowers/Flowers 1.11.fbx using Guid(ce46cd3d295badc488cd0d414dbe02d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633bf20b89720ba74350091464941ae1') in 0.013760 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Hand Paint Flowers/Models/HPF/Flowers/Flowers 1.12.fbx
-  artifactKey: Guid(801595a9ec5fe964c948a5c04b25c843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Paint Flowers/Models/HPF/Flowers/Flowers 1.12.fbx using Guid(801595a9ec5fe964c948a5c04b25c843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a53bbf82684081656dd5dbb1fe6c2a') in 0.013430 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 296.870616 seconds.
-  path: Assets/Hand Paint Flowers/Models/HPF/Pots/Pot 1.02.fbx
-  artifactKey: Guid(f6cfbb75aabdd4b47989cbb50d89d3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Paint Flowers/Models/HPF/Pots/Pot 1.02.fbx using Guid(f6cfbb75aabdd4b47989cbb50d89d3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f5926ba1b447e2c30e195afed65baf') in 0.034399 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Hand Paint Flowers/Models/HPF/Pots/Pot 1.07.fbx
-  artifactKey: Guid(a6fa4c58170ec0b45bc58a2e7e054b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Paint Flowers/Models/HPF/Pots/Pot 1.07.fbx using Guid(a6fa4c58170ec0b45bc58a2e7e054b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c505f4ff3682b2b5d9392ad78e4fd3f4') in 0.015363 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Hand Paint Flowers/Models/HPF/Pots/Pot 1.08.fbx
-  artifactKey: Guid(c09a59f1c737863449cb17956848cda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Paint Flowers/Models/HPF/Pots/Pot 1.08.fbx using Guid(c09a59f1c737863449cb17956848cda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26cbc53251652e422649c2697487b61c') in 0.014486 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/Hand Paint Flowers/Models/HPF/Pots/Pot 1.05.fbx
-  artifactKey: Guid(df067731b7ee08b48ad97879d5f82cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Paint Flowers/Models/HPF/Pots/Pot 1.05.fbx using Guid(df067731b7ee08b48ad97879d5f82cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e42c3f44fd38b0215a439f65d866891') in 0.013784 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Hand Paint Flowers/Models/HPF/Pots/Pot 1.04.fbx
-  artifactKey: Guid(030d4a50bcfca364fb5b7e4a1d47f50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Paint Flowers/Models/HPF/Pots/Pot 1.04.fbx using Guid(030d4a50bcfca364fb5b7e4a1d47f50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a19e7092e882513b79b0d9fa40abc5') in 0.013469 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 408.602962 seconds.
-  path: Assets/FantasyEnvironments/Environments/FBX/Flower2.FBX
-  artifactKey: Guid(d62931e0a9d452d4b8c6e29df7ab3868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/FBX/Flower2.FBX using Guid(d62931e0a9d452d4b8c6e29df7ab3868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e940afda060b9b767754e1fd9877821') in 0.455272 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/FantasyEnvironments/Environments/FBX/Mushroom1.FBX
-  artifactKey: Guid(bdeb79af937bc3940958acedeb2e5c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/FBX/Mushroom1.FBX using Guid(bdeb79af937bc3940958acedeb2e5c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96dfd9233302bf755100202b8baf39b6') in 0.012494 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/FantasyEnvironments/Environments/FBX/Grass1.FBX
-  artifactKey: Guid(f5c8b048970ac0b4595deee7550aea2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/FBX/Grass1.FBX using Guid(f5c8b048970ac0b4595deee7550aea2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bae0fc89639114bcdfa4e320cef5ab7') in 0.011026 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001401 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/phoebewongphatarakul/Desktop/2730final/2730 Final Project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/phoebewongphatarakul/Desktop/2730final/2730 Final Project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.235 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2237ms)
-		BeginReloadAssembly (264ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (28ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (79ms)
-		EndReloadAssembly (1782ms)
-			LoadAssemblies (118ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (277ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (1191ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (34ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (933ms)
-				ProcessInitializeOnLoadMethodAttributes (139ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3897 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (94.5 KB). Loaded Objects now: 4454.
-Memory consumption went from 376.0 MB to 375.9 MB.
-Total: 3.069791 ms (FindLiveObjects: 0.265333 ms CreateObjectMapping: 0.085708 ms MarkObjects: 2.675000 ms  DeleteObjects: 0.043000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 321.317464 seconds.
-  path: Assets/FantasyEnvironments/Environments/Materials/Rock1.mat
-  artifactKey: Guid(a533ed8eb4eba624da8b36b62d2da8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Materials/Rock1.mat using Guid(a533ed8eb4eba624da8b36b62d2da8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef5409c008c22013d0f5c8cf0b853be') in 0.301341 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.133749 seconds.
-  path: Assets/FantasyEnvironments/Environments/Prefabs/Flower2.prefab
-  artifactKey: Guid(9c47d3ce2208e9440ab03e7fe3e32bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Prefabs/Flower2.prefab using Guid(9c47d3ce2208e9440ab03e7fe3e32bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f191f0439061181d46fc787d19a413') in 0.118108 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/FantasyEnvironments/Environments/Prefabs/Grass1.prefab
-  artifactKey: Guid(a022b6294d5967e499a6638d8af5a54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Prefabs/Grass1.prefab using Guid(a022b6294d5967e499a6638d8af5a54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e163d444856f131cd7f67ca6c1ccc2a') in 0.009768 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/FantasyEnvironments/Environments/Prefabs/Rock1.prefab
-  artifactKey: Guid(c07f24e35f07ce74ba43afa35d48adf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Prefabs/Rock1.prefab using Guid(c07f24e35f07ce74ba43afa35d48adf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9cf9d40529e357c1eeacc2401d7651') in 0.008795 seconds 
+  Time since last request: 0.000078 seconds.
+  path: Assets/Christmas-Assets-FREE/Materials/Candy-Cane-01-Color+Spec.mat
+  artifactKey: Guid(2f2058858650b384583c55a6b35e2ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Christmas-Assets-FREE/Materials/Candy-Cane-01-Color+Spec.mat using Guid(2f2058858650b384583c55a6b35e2ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e387ade1a96c15d185d51ea762a0e4') in 0.187054 seconds 
