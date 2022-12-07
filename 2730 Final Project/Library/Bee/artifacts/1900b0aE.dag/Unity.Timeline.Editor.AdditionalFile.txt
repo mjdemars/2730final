@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 /Users/phoebewongphatarakul/Desktop/2730final/2730 Final Project
-=======
-/Users/maddalendemars/Documents/GitHub/2730final/2730 Final Project
->>>>>>> 9f0a70f764983305c50acaa0734d6aa92211c7d0

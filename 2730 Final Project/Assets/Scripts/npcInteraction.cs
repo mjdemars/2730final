@@ -21,16 +21,15 @@ public class npcInteraction : MonoBehaviour
 
     void Update()
     {
-        // if (Vector3.Distance(player.position, transform.position) <= detectionRange) {
-        //
-        //     if (Input.GetKeyDown (KeyCode.E) )
-        //     {
-        //         if (audioclip.isPlaying == false)
-        //         {
-        //             audioclip.Play();
-        //         }
-        //     }
-        // }
+        if (Vector3.Distance(player.position, transform.position) <= detectionRange) {
+            if (Input.GetKeyDown (KeyCode.E) )
+            {
+                if (audioclip.isPlaying == false)
+                {
+                    audioclip.Play();
+                }
+            }
+        }
     }
 
     void OnTriggerEnter(Collider other)
@@ -38,14 +37,6 @@ public class npcInteraction : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             _UIprompt.enabled = true;
-        }
-
-        if (Input.GetKeyDown (KeyCode.E) )
-        {
-            if (audioclip.isPlaying == false)
-            {
-                audioclip.Play();
-            }
         }
     }
 

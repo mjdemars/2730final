@@ -7,9 +7,6 @@ public class pathContinue : MonoBehaviour
     public GameObject wall1;
     public GameObject wall2;
 
-    public GameObject wallAudio1;
-    public GameObject wallAudio2;
-
     Light directionalLight;
 
     // Start is called before the first frame update
@@ -31,7 +28,6 @@ public class pathContinue : MonoBehaviour
                 Color darkenColor2 = new Color(0.54f, 0.51f, 0.42f, 1.0f);
                 directionalLight.color = darkenColor2;
                 wall1.SetActive(false);
-                wallAudio1.SetActive(false);
             }
 
         }
@@ -45,7 +41,6 @@ public class pathContinue : MonoBehaviour
                 Color darkenColor4 = new Color(0f, 0f, 0f, 1.0f);
                 directionalLight.color = darkenColor4;
                 wall2.SetActive(false);
-                wallAudio2.SetActive(false);
             }
         }
     }
