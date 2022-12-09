@@ -230,3 +230,73 @@ Received Import Request.
   path: Assets/Materials/graveTexture.mat
   artifactKey: Guid(c5444cb0b9fc740fca3c4a7e5cacbc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Materials/graveTexture.mat using Guid(c5444cb0b9fc740fca3c4a7e5cacbc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909839efe0552c74de0982611efc1389') in 0.007332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 127.043633 seconds.
+  path: Assets/CandyFantasyworld/CandyScene_day
+  artifactKey: Guid(f7cc5195a64444bdfbcb727fe1f424e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CandyFantasyworld/CandyScene_day using Guid(f7cc5195a64444bdfbcb727fe1f424e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957429f9ecf45feb509c3597962ed909') in 0.000724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.683734 seconds.
+  path: Assets/FantasyEnvironments/Environments
+  artifactKey: Guid(b65037222b1418248ad5e3d35bf81d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments using Guid(b65037222b1418248ad5e3d35bf81d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10d88ef5da2d3b059aba4aef66beef1') in 0.000969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.051113 seconds.
+  path: Assets/FantasyEnvironments/Environments/Terrain.asset
+  artifactKey: Guid(8ee04e1f17f7f5549acabd4c8d8a68c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments/Terrain.asset using Guid(8ee04e1f17f7f5549acabd4c8d8a68c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tree prefab at index 0 is missing.
+Tree prefab at index 1 is missing.
+Tree prefab at index 2 is missing.
+Tree prefab at index 3 is missing.
+ -> (artifact id: 'eb36236c6d582e775e25c5655cabfa56') in 0.059610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.762135 seconds.
+  path: Assets/FantasyEnvironments/Environments/Prefabs
+  artifactKey: Guid(ef07e65e41d5b9643a6fed8822f68b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments/Prefabs using Guid(ef07e65e41d5b9643a6fed8822f68b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db5e06f1b57902553eb3683fa594c45') in 0.000897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.496360 seconds.
+  path: Assets/FantasyEnvironments/Environments/FBX
+  artifactKey: Guid(50ff1cb4c684c544a8b5b043cdc6a81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments/FBX using Guid(50ff1cb4c684c544a8b5b043cdc6a81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239a44803bcb755dd8bd3b9f4c0f93d6') in 0.000942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.477595 seconds.
+  path: Assets/FantasyEnvironments/Environments/Materials
+  artifactKey: Guid(9ee4b6a4cc4a83944b31251a7c133061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments/Materials using Guid(9ee4b6a4cc4a83944b31251a7c133061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada939ac9f6480e96828af54008b34c5') in 0.000922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055754 seconds.
+  path: Assets/FantasyEnvironments/Environments/Materials/Plant.mat
+  artifactKey: Guid(7805f02cde847fa488989988fbc3d7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments/Materials/Plant.mat using Guid(7805f02cde847fa488989988fbc3d7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d83c3d10168100de9d8ac843eafd282') in 0.251033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.005602 seconds.
+  path: Assets/FantasyEnvironments/Environments/FBX/Flower1.FBX
+  artifactKey: Guid(d9b2cda8a1e050e478497f2213c37e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments/FBX/Flower1.FBX using Guid(d9b2cda8a1e050e478497f2213c37e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7530427b2f1d39ddedd9e16f9e08585f') in 0.129702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/FantasyEnvironments/Environments/FBX/Rock1.fbx
+  artifactKey: Guid(7e7c5a68504558b45bd9e9301d6c579b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments/FBX/Rock1.fbx using Guid(7e7c5a68504558b45bd9e9301d6c579b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a6c4c6da0edadeaff7ee161a932b2d') in 0.072694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/FantasyEnvironments/Environments/FBX/Mushroom1.FBX
+  artifactKey: Guid(bdeb79af937bc3940958acedeb2e5c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments/FBX/Mushroom1.FBX using Guid(bdeb79af937bc3940958acedeb2e5c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96dfd9233302bf755100202b8baf39b6') in 0.011192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/FantasyEnvironments/Environments/FBX/Grass1.FBX
+  artifactKey: Guid(f5c8b048970ac0b4595deee7550aea2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments/FBX/Grass1.FBX using Guid(f5c8b048970ac0b4595deee7550aea2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bae0fc89639114bcdfa4e320cef5ab7') in 0.010001 seconds 

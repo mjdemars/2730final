@@ -194,3 +194,15 @@ Received Import Request.
   path: Assets/Materials/forestPink.png
   artifactKey: Guid(48b2961ed51fa4e15ab26424f76ca962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Materials/forestPink.png using Guid(48b2961ed51fa4e15ab26424f76ca962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b808f45990982bfb228d52105b92c1') in 0.341762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 293.176776 seconds.
+  path: Assets/FantasyEnvironments/Environments/Materials/Rock1.mat
+  artifactKey: Guid(a533ed8eb4eba624da8b36b62d2da8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments/Materials/Rock1.mat using Guid(a533ed8eb4eba624da8b36b62d2da8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef5409c008c22013d0f5c8cf0b853be') in 0.016013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.239184 seconds.
+  path: Assets/FantasyEnvironments/Environments/FBX/Flower2.FBX
+  artifactKey: Guid(d62931e0a9d452d4b8c6e29df7ab3868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments/FBX/Flower2.FBX using Guid(d62931e0a9d452d4b8c6e29df7ab3868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e940afda060b9b767754e1fd9877821') in 0.398659 seconds 
