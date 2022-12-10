@@ -9,6 +9,7 @@ public class npcInteraction : MonoBehaviour
     private Image _UIprompt;
 
     public AudioSource audioclip;
+    public AudioSource audioclip2;
 
     public float detectionRange;
     public bool closeEnough;
@@ -21,16 +22,17 @@ public class npcInteraction : MonoBehaviour
 
     void Update()
     {
-        // if (Vector3.Distance(player.position, transform.position) <= detectionRange) {
-        //
-        //     if (Input.GetKeyDown (KeyCode.E) )
-        //     {
-        //         if (audioclip.isPlaying == false)
-        //         {
-        //             audioclip.Play();
-        //         }
-        //     }
-        // }
+        closeEnough = false;
+
+        if (Vector3.Distance(player.position, transform.position) <= detectionRange) {
+            if(Input.GetKeyDown (KeyCode.E)) {
+                closeEnough = true;
+                _UIprompt.enabled = false;
+                if (audioclip.isPlaying == false && audioclip2.isPlaying == false) {
+                    StartCoroutine(PlaySounds());
+                }
+            }
+        }
     }
 
     void OnTriggerEnter(Collider other)
@@ -38,14 +40,6 @@ public class npcInteraction : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             _UIprompt.enabled = true;
-        }
-
-        if (Input.GetKeyDown (KeyCode.E) )
-        {
-            if (audioclip.isPlaying == false)
-            {
-                audioclip.Play();
-            }
         }
     }
 
@@ -55,5 +49,11 @@ public class npcInteraction : MonoBehaviour
         {
             _UIprompt.enabled = false;
         }
+    }
+
+    IEnumerator PlaySounds() {
+        audioclip.Play();
+        yield return new WaitForSeconds(15);
+        audioclip2.Play();
     }
 }
