@@ -8,6 +8,7 @@ public class voiceLineTrigger : MonoBehaviour
     public GameObject triggerBox;
     public bool fire;
     public bool candymen;
+    public bool triggerDisappear;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,14 +26,15 @@ public class voiceLineTrigger : MonoBehaviour
         if (voiceline.isPlaying == false)
         {
             voiceline.Play();
-            triggerBox.SetActive(false);
         }
         if (fire == true) {
             globals.fire = true;
-            triggerBox.SetActive(false);
         }
-        if (candymen == true) {
-            globals.candymen = true;
+        // if (candymen == true) {
+        //     globals.candymen = true;
+        // }
+
+        if (triggerDisappear == true) {
             triggerBox.SetActive(false);
         }
     }

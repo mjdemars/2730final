@@ -11,6 +11,8 @@ public class npcInteraction : MonoBehaviour
     public AudioSource audioclip;
     public AudioSource audioclip2;
 
+    public GameObject triggerBox;
+
     public float detectionRange;
     public bool closeEnough;
     public Transform player;
@@ -26,6 +28,7 @@ public class npcInteraction : MonoBehaviour
 
         if (Vector3.Distance(player.position, transform.position) <= detectionRange) {
             if(Input.GetKeyDown (KeyCode.E)) {
+                globals.candymen = true;
                 closeEnough = true;
                 _UIprompt.enabled = false;
                 if (audioclip.isPlaying == false && audioclip2.isPlaying == false) {
@@ -55,5 +58,7 @@ public class npcInteraction : MonoBehaviour
         audioclip.Play();
         yield return new WaitForSeconds(15);
         audioclip2.Play();
+        yield return new WaitForSeconds(5);
+        triggerBox.SetActive(false);
     }
 }

@@ -20,6 +20,10 @@ public class graveInteraction : MonoBehaviour
     public float detectionRange;
     public bool closeEnough;
 
+    public bool pickup;
+
+    public GameObject blackoutScreen;
+
     public GameObject spotlight1;
     public GameObject spotlight2;
 
@@ -27,21 +31,28 @@ public class graveInteraction : MonoBehaviour
     {
         _UIprompt.enabled = false;
         _graveImage.enabled = false;
+        pickup = false;
     }
 
     void Update()
     {
-      if (Vector3.Distance(player.position, target.position) <= detectionRange) {
-          if(Input.GetKeyDown (KeyCode.E)) {
+        if (Vector3.Distance(player.position, target.position) <= detectionRange) {
+            if(Input.GetKeyDown (KeyCode.E) && pickup == false) {
                 closeEnough = true;
+                pickup = true;
+
                 spotlight1.GetComponent<Light>().color = Color.red;
                 spotlight2.GetComponent<Light>().color = Color.red;
                 _UIprompt.enabled = false;
                 _graveImage.enabled = true;
                 if (audioclip.isPlaying == false && audioclip2.isPlaying == false) {
                     StartCoroutine(PlayAudio());
+                    StartCoroutine(FadeOut());
                 }
-                StartCoroutine("Quit");
+            } else if (Input.GetKeyDown (KeyCode.E) && pickup == true) {
+                _graveImage.enabled = false;
+                _UIprompt.enabled = true;
+                pickup = false;
             }
         }
     }
@@ -52,18 +63,6 @@ public class graveInteraction : MonoBehaviour
         {
             _UIprompt.enabled = true;
         }
-
-        // if (Input.GetKeyDown (KeyCode.E) )
-        // {
-        //     spotlight1.GetComponent<Light>().color = Color.red;
-        //     spotlight2.GetComponent<Light>().color = Color.red;
-        //     _UIprompt.enabled = false;
-        //     _graveImage.enabled = true;
-        //     if (audioclip.isPlaying == false && audioclip2.isPlaying == false) {
-        //         StartCoroutine(PlayAudio());
-        //     }
-        //     StartCoroutine("Quit");
-        // }
     }
 
     void OnTriggerExit(Collider other)
@@ -76,12 +75,23 @@ public class graveInteraction : MonoBehaviour
 
     IEnumerator PlayAudio() {
         audioclip.Play();
-        yield return new WaitForSeconds(12);
+        yield return new WaitForSeconds(10);
         audioclip2.Play();
     }
 
-    IEnumerator Quit() {
-        yield return new WaitForSeconds(12);
+    IEnumerator FadeOut() {
+        Color objectColor = blackoutScreen.GetComponent<Image>().color;
+        float fadeAmount;
+
+        while (blackoutScreen.GetComponent<Image>().color.a < 1)
+        {
+            fadeAmount = objectColor.a + (12 * Time.deltaTime);
+
+            objectColor = new Color(objectColor.r, objectColor.g, objectColor.g, fadeAmount);
+            blackoutScreen.GetComponent<Image>().color = objectColor;
+            yield return null;
+        }
+        // yield return new WaitForSeconds(5);
         Application.Quit();
     }
 }
