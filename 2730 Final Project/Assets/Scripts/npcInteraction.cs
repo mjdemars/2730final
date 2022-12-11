@@ -56,9 +56,9 @@ public class npcInteraction : MonoBehaviour
 
     IEnumerator PlaySounds() {
         audioclip.Play();
-        yield return new WaitForSeconds(15);
+        yield return new WaitForSeconds(13);
         audioclip2.Play();
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(2);
         triggerBox.SetActive(false);
     }
 }

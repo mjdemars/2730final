@@ -47,19 +47,18 @@ public class graveInteraction : MonoBehaviour
                 _graveImage.enabled = true;
                 if (audioclip.isPlaying == false && audioclip2.isPlaying == false) {
                     StartCoroutine(PlayAudio());
-                    StartCoroutine(FadeOut());
+                    // StartCoroutine(FadeOut());
                 }
             } else if (Input.GetKeyDown (KeyCode.E) && pickup == true) {
                 _graveImage.enabled = false;
-                _UIprompt.enabled = true;
-                pickup = false;
+                // _UIprompt.enabled = true;
             }
         }
     }
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && pickup == false)
         {
             _UIprompt.enabled = true;
         }
@@ -75,23 +74,23 @@ public class graveInteraction : MonoBehaviour
 
     IEnumerator PlayAudio() {
         audioclip.Play();
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(8);
         audioclip2.Play();
     }
 
-    IEnumerator FadeOut() {
-        Color objectColor = blackoutScreen.GetComponent<Image>().color;
-        float fadeAmount;
-
-        while (blackoutScreen.GetComponent<Image>().color.a < 1)
-        {
-            fadeAmount = objectColor.a + (12 * Time.deltaTime);
-
-            objectColor = new Color(objectColor.r, objectColor.g, objectColor.g, fadeAmount);
-            blackoutScreen.GetComponent<Image>().color = objectColor;
-            yield return null;
-        }
-        // yield return new WaitForSeconds(5);
-        Application.Quit();
-    }
+    // IEnumerator FadeOut() {
+    //     Color objectColor = blackoutScreen.GetComponent<Image>().color;
+    //     float fadeAmount;
+    //
+    //     while (blackoutScreen.GetComponent<Image>().color.a < 1)
+    //     {
+    //         fadeAmount = objectColor.a + (1 * Time.deltaTime);
+    //
+    //         objectColor = new Color(objectColor.r, objectColor.g, objectColor.g, fadeAmount);
+    //         blackoutScreen.GetComponent<Image>().color = objectColor;
+    //         yield return null;
+    //     }
+    //     // yield return new WaitForSeconds(5);
+    //     Application.Quit();
+    // }
 }
