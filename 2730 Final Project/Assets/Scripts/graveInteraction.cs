@@ -75,7 +75,7 @@ public class graveInteraction : MonoBehaviour
         audioclip.Play();
         yield return new WaitForSeconds(8);
         audioclip2.Play();
-        yield return new WaitForSeconds(8);
+        yield return new WaitForSeconds(6);
         StartCoroutine(FadeOut());
     }
 
@@ -83,16 +83,17 @@ public class graveInteraction : MonoBehaviour
         Color objectColor = blackoutScreen.GetComponent<Image>().color;
         float fadeAmount;
         // blackoutScreen.enabled = true;
-    
+
         while (blackoutScreen.GetComponent<Image>().color.a < 1)
         {
             fadeAmount = objectColor.a + (1 * Time.deltaTime);
-    
+
             objectColor = new Color(objectColor.r, objectColor.g, objectColor.g, fadeAmount);
             blackoutScreen.GetComponent<Image>().color = objectColor;
             yield return null;
         }
         // yield return new WaitForSeconds(5);
+        // UnityEditor.EditorApplication.isPlaying = false;
         Application.Quit();
     }
 }
