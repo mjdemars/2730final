@@ -63,10 +63,7 @@ public class noteAppear : MonoBehaviour
 
                 closeEnough = true;
 
-                voiceline.Play();
-                if (twoAudios == true && voiceline.isPlaying == false) {
-                    voiceline2.Play();
-                }
+                StartCoroutine(PlayAudio());
                 pickupSound.Play();
 
                 int x = Screen.width / 2;
@@ -96,6 +93,15 @@ public class noteAppear : MonoBehaviour
             // noteObject.SetActive(false);
             pickedUp = false;
         }
+    }
+
+    IEnumerator PlayAudio() {
+        voiceline.Play();
+        yield return new WaitForSeconds(24);
+        if (twoAudios == true) {
+            voiceline2.Play();
+        }
+        yield return new WaitForSeconds(2);
     }
 
 }
