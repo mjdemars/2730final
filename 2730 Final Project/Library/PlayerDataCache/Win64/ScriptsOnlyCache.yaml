@@ -127,29 +127,29 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1558}
+      Script: {instanceID: 1928}
     - Class: 114
-      Script: {instanceID: 1560}
+      Script: {instanceID: 2650}
     - Class: 114
-      Script: {instanceID: 2334}
+      Script: {instanceID: 3152}
     - Class: 114
-      Script: {instanceID: 2836}
+      Script: {instanceID: 3394}
     - Class: 114
-      Script: {instanceID: 3426}
+      Script: {instanceID: 3744}
     - Class: 114
-      Script: {instanceID: 4676}
+      Script: {instanceID: 4994}
     - Class: 114
-      Script: {instanceID: 4990}
+      Script: {instanceID: 5308}
     - Class: 114
-      Script: {instanceID: 5348}
+      Script: {instanceID: 5666}
     - Class: 114
-      Script: {instanceID: 5872}
+      Script: {instanceID: 6190}
     - Class: 114
-      Script: {instanceID: 6570}
+      Script: {instanceID: 6888}
     - Class: 114
-      Script: {instanceID: 6770}
+      Script: {instanceID: 7084}
     - Class: 114
-      Script: {instanceID: 7168}
+      Script: {instanceID: 7482}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -214,53 +214,53 @@ ScriptsOnlyBuild:
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1558}
+      Script: {instanceID: 1928}
     - Class: 114
-      Script: {instanceID: 1560}
+      Script: {instanceID: 1932}
     - Class: 114
-      Script: {instanceID: 1614}
+      Script: {instanceID: 2202}
     - Class: 114
-      Script: {instanceID: 1884}
+      Script: {instanceID: 2526}
     - Class: 114
-      Script: {instanceID: 2208}
+      Script: {instanceID: 3076}
     - Class: 114
-      Script: {instanceID: 2760}
+      Script: {instanceID: 3152}
     - Class: 114
-      Script: {instanceID: 2836}
+      Script: {instanceID: 3234}
     - Class: 114
-      Script: {instanceID: 2918}
+      Script: {instanceID: 3394}
     - Class: 114
-      Script: {instanceID: 3244}
+      Script: {instanceID: 3562}
     - Class: 114
-      Script: {instanceID: 3328}
+      Script: {instanceID: 3646}
     - Class: 114
-      Script: {instanceID: 3344}
+      Script: {instanceID: 3662}
     - Class: 114
-      Script: {instanceID: 3706}
+      Script: {instanceID: 4024}
     - Class: 114
-      Script: {instanceID: 4186}
+      Script: {instanceID: 4504}
     - Class: 114
-      Script: {instanceID: 4730}
+      Script: {instanceID: 5048}
     - Class: 114
-      Script: {instanceID: 6530}
+      Script: {instanceID: 6848}
     - Class: 114
-      Script: {instanceID: 6570}
+      Script: {instanceID: 6888}
     - Class: 114
-      Script: {instanceID: 6710}
+      Script: {instanceID: 7028}
     - Class: 114
-      Script: {instanceID: 7016}
+      Script: {instanceID: 7330}
     - Class: 114
-      Script: {instanceID: 7152}
+      Script: {instanceID: 7466}
     - Class: 114
-      Script: {instanceID: 7168}
+      Script: {instanceID: 7482}
     - Class: 114
-      Script: {instanceID: 7836}
+      Script: {instanceID: 8150}
     - Class: 114
-      Script: {instanceID: 8374}
+      Script: {instanceID: 8688}
     - Class: 114
-      Script: {instanceID: 8466}
+      Script: {instanceID: 8780}
     - Class: 114
-      Script: {instanceID: 9058}
+      Script: {instanceID: 9372}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -296,22 +296,16 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
-      Hash: ae83e830e7a90c0aff918c4c2e520825
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: GraphicRaycaster
+    namespaceName: UnityEngine.UIElements
+    className: PanelRaycaster
   - hash:
       serializedVersion: 2
       Hash: a6e561615949734e9f12f9b61661f43e
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Image
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UIElements
-    className: PanelRaycaster
   - hash:
       serializedVersion: 2
       Hash: c24a778d9aa393e11e54bff320ca63de
@@ -546,6 +540,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestRunner.Utils
     className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
   - hash:
       serializedVersion: 2
       Hash: f40fedccd4adbc76605bea6d67537e4b
@@ -1660,5 +1660,5 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: /Users/maddalendemars/Documents/GitHub/2730final/2730 Final Project/windowsBuildTest/2730
+  playerPath: /Users/maddalendemars/Documents/GitHub/2730final/2730 Final Project/windowsBuild/2730
     Final Project.exe
