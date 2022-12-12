@@ -9,6 +9,7 @@ public class openDoor : MonoBehaviour
     private Image _doorPrompt;
 
     public GameObject door;
+    public GameObject doorCollider;
 
     bool exited;
     public float smooth;
@@ -43,6 +44,9 @@ public class openDoor : MonoBehaviour
 
                 audioclip.Play();
                 audioclip2.Play();
+
+                _doorPrompt.enabled = false;
+                doorCollider.SetActive(false);
             }
             if (Input.GetKeyDown (KeyCode.E) && exited == false && globals.noteCounter < 1)
             {

@@ -8,6 +8,12 @@ public class noteAppear : MonoBehaviour
     [SerializeField]
     private Image _noteImage;
 
+    [SerializeField]
+    private Image _pickupUI;
+
+    [SerializeField]
+    private Image _putdownUI;
+
     GameObject mainCamera;
     public GameObject noteObject;
 
@@ -38,6 +44,12 @@ public class noteAppear : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Vector3.Distance(player.position, transform.position) <= detectionRange && pickedUp == false) {
+            _pickupUI.enabled = true;
+        } else {
+            _pickupUI.enabled = false;
+        }
+
         closeEnough = false;
 
         if(pickedUp) {
@@ -74,6 +86,7 @@ public class noteAppear : MonoBehaviour
 
                 if(Physics.Raycast(ray, out hit)) {
                     _noteImage.enabled = true;
+                    _putdownUI.enabled = true;
                     pickedUp = true;
                 }
             }
@@ -89,6 +102,8 @@ public class noteAppear : MonoBehaviour
                 voiceline2.Stop();
             }
 
+            _putdownUI.enabled = false;
+
             putdownSound.Play();
             // noteObject.SetActive(false);
             pickedUp = false;
@@ -98,7 +113,7 @@ public class noteAppear : MonoBehaviour
     IEnumerator PlayAudio() {
         voiceline.Play();
         yield return new WaitForSeconds(24);
-        if (twoAudios == true) {
+        if (twoAudios == true && pickedUp == true) {
             voiceline2.Play();
         }
         yield return new WaitForSeconds(2);

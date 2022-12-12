@@ -386,7 +386,7 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionStayMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 11dd824a2396e60e7d0150dddd2722ad
+      Hash: 37c5182f02d024b262bbb69d28e79995
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: noteAppear
@@ -902,7 +902,7 @@ ScriptsOnlyBuild:
     className: UnityOnJointBreak2DMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 6eb22275a37f1d52bbf6c3ab350e83ef
+      Hash: ac42d3491218bea12fe56363b6151d25
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: openDoor

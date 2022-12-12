@@ -48,9 +48,6 @@ public class graveInteraction : MonoBehaviour
                 if (audioclip.isPlaying == false && audioclip2.isPlaying == false) {
                     StartCoroutine(PlayAudio());
                 }
-            } else if (Input.GetKeyDown (KeyCode.E) && pickup == true) {
-                _graveImage.enabled = false;
-                _UIprompt.enabled = true;
             }
         }
     }
@@ -73,9 +70,9 @@ public class graveInteraction : MonoBehaviour
 
     IEnumerator PlayAudio() {
         audioclip.Play();
-        yield return new WaitForSeconds(8);
+        yield return new WaitForSeconds(7);
         audioclip2.Play();
-        yield return new WaitForSeconds(6);
+        yield return new WaitForSeconds(5);
         StartCoroutine(FadeOut());
     }
 

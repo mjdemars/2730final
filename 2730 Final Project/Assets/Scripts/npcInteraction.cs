@@ -58,7 +58,6 @@ public class npcInteraction : MonoBehaviour
         audioclip.Play();
         yield return new WaitForSeconds(13);
         audioclip2.Play();
-        yield return new WaitForSeconds(2);
         triggerBox.SetActive(false);
     }
 }
