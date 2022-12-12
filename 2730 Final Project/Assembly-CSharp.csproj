@@ -56,7 +56,6 @@
      <Compile Include="Assets\Scripts\cantSwim.cs" />
      <Compile Include="Assets\Scripts\voiceLineTrigger.cs" />
      <Compile Include="Assets\Scripts\graveInteraction.cs" />
-     <Compile Include="Assets\Scripts\fadeBehavior.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
